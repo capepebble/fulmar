@@ -1,0 +1,28 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, tâche Hyper Backup locale « Essai local ». Réponse réelle du 2026-11-06, nettoyée par nas_agent.probe.scrub.",
+ "error_count": 0,
+ "info_count": 3,
+ "log_list": [
+  {
+   "event": "[Local][Essai local] Backup task finished successfully. [4 files scanned] [4 new files]",
+   "level": "info",
+   "time": "2026/11/06 16:08:41",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai local] Backup task started.",
+   "level": "info",
+   "time": "2026/11/06 16:08:29",
+   "user": "<user>"
+  },
+  {
+   "event": "Setting of backup task [Essai local] was created to backup to [sauvegardes/essai.hbk]",
+   "level": "info",
+   "time": "2026/11/06 16:08:19",
+   "user": "<user>"
+  }
+ ],
+ "offset": 3,
+ "total": 3,
+ "warn_count": 0
+}

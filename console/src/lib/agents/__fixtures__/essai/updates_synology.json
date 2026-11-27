@@ -1,0 +1,23 @@
+{
+  "op": "updates.synology",
+  "fetched_at": "2026-11-26T16:51:20.711913+00:00",
+  "cached": false,
+  "data": {
+    "read": true,
+    "error": null,
+    "feed_read_at": "2026-11-26T16:35:07.936945+00:00",
+    "models_read_at": "2026-11-26T16:41:22.831983+00:00",
+    "advisories_known": 140,
+    "dsm_version": "DSM 7.4.1-90080 Update 2",
+    "lifecycle": {
+      "model": "DS420+",
+      "listed": true,
+      "updates": "full",
+      "support": "limited",
+      "availability": "discontinued",
+      "warranty_years": 3
+    },
+    "findings": [],
+    "fixed": 8
+  }
+}

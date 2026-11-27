@@ -1,0 +1,15 @@
+{
+  "op": "system.info",
+  "fetched_at": "2026-11-09T15:26:47.059276+00:00",
+  "cached": false,
+  "data": {
+    "model": "DS918+",
+    "serial": "SERIAL0000",
+    "ram_mb": 4096,
+    "dsm_version": "DSM 7.2.2-72806 Update 3",
+    "dsm_build": "72806",
+    "uptime_s": 155084,
+    "temperature_c": 40,
+    "temperature_warning": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, un disque de 12 To en SHR sans protection, Container Manager avec cinq conteneurs (agent, moteur d'essai, Tailscale, Beszel). Réponse réelle du 2026-11-26, nettoyée par nas_agent.probe.scrub.",
+ "contact": "",
+ "enable_snmp": false,
+ "enable_snmp_v1v2": false,
+ "enable_snmp_v3": false,
+ "location": "",
+ "name": "",
+ "node0_name": "",
+ "node1_name": "",
+ "rocommunity": "",
+ "rouser": ""
+}

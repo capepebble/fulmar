@@ -1,0 +1,13 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, un disque en SHR sans protection. Réponse réelle du 2026-11-06, nettoyée par nas_agent.probe.scrub.",
+ "codepage": "enu",
+ "model": "DS420+",
+ "ram": 2048,
+ "serial": "<serial>",
+ "temperature": 41,
+ "temperature_warn": false,
+ "time": "Fri Nov  6 04:56:18 2026",
+ "uptime": 3656,
+ "version": "90080",
+ "version_string": "DSM 7.4.1-90080 Update 1"
+}

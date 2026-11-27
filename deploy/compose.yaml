@@ -1,0 +1,101 @@
+# Le moteur : l'agent et la console d'un NAS, en un seul projet (Container Manager ou
+# `docker compose up -d`). Mode d'emploi : INSTALL.md, à côté.
+#
+# Seule la console est publiée, sur le port 3410 du NAS ; l'agent n'est joint que par elle, sur
+# le réseau du projet. Au premier lancement, ouvrir http://<adresse du NAS>:3410 : la console
+# demande le code d'installation écrit dans son journal, puis un mot de passe, puis le compte
+# de service DSM de l'agent. Rien n'est ouvert sur Internet.
+name: nas-agent
+
+services:
+  agent:
+    image: ghcr.io/capepebble/nas-agent:${NAS_VERSION:-latest}
+    build:
+      context: ../agent
+      dockerfile: deploy/Dockerfile
+    environment:
+      # Sur le réseau du projet seulement (aucun port publié) : la console est ailleurs.
+      NAS_AGENT_BIND_HOST: 0.0.0.0
+      NAS_AGENT_ALLOW_NON_LOOPBACK: "1"
+      NAS_AGENT_PUBLIC_HOSTS: agent
+      # L'agent écrit lui-même le jeton de la console, limité au réseau du projet.
+      NAS_AGENT_CONSOLE_TOKEN_FILE: /shared/console-token
+      NAS_AGENT_CONSOLE_CIDR: ${NAS_SUBNET:-172.29.54.0/24}
+      # Langue des alertes (courriel, ntfy, webhook, téléphones) ; la console choisit la sienne.
+      NAS_AGENT_LANGUAGE: ${NAS_LANGUAGE:-en}
+      # NAS que ce hub peut suivre en plus du sien (« Ajouter un NAS » dans la console).
+      NAS_AGENT_FLEET_MAX: ${NAS_FLEET_MAX:-50}
+    volumes:
+      - agent-data:/data
+      - console-token:/shared
+    networks:
+      - nas
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    # Un NAS ajouté au hub prend quelques mégaoctets : 512 Mo laissent la place d'un parc.
+    mem_limit: 512m
+    # Le noyau de DSM n'a ni contrôleur pids (limite ignorée) ni plafond de processeur (CFS) :
+    # `cpus` y fait échouer le démarrage. Il reste la priorité relative.
+    pids_limit: 64
+    cpu_shares: 512
+    # « always », pas « unless-stopped » : avant un arrêt du NAS ou une mise à jour de DSM,
+    # Container Manager arrête lui-même les conteneurs, ce qui désarme unless-stopped.
+    restart: always
+
+  console:
+    image: ghcr.io/capepebble/nas-console:${NAS_VERSION:-latest}
+    build:
+      context: ../console
+      dockerfile: deploy/Dockerfile
+    depends_on:
+      - agent
+    ports:
+      - "${CONSOLE_PORT:-3410}:3000"
+    environment:
+      NAS_CONSOLE_AUTH: password
+      NAS_CONSOLE_DATA_DIR: /data
+      NAS_CONSOLE_MEMORY_FILE: /data/memory.sqlite
+      NAS_CONSOLE_AGENTS_FILE: /data/agents.json
+      NAS_CONSOLE_AGENT_URL: http://agent:8765
+      NAS_CONSOLE_AGENT_TOKEN_FILE: /shared/console-token
+      NAS_CONSOLE_TZ: ${TZ:-Europe/Paris}
+      HOSTNAME: 0.0.0.0
+      PORT: "3000"
+    volumes:
+      - console-data:/data
+      - console-token:/shared:ro
+    networks:
+      - nas
+    read_only: true
+    # Racine en lecture seule : Next.js n'écrit qu'en mémoire.
+    tmpfs:
+      - /tmp
+      - /app/.next/cache:uid=10001,gid=10001
+      - /app/.next/server/route-cache:uid=10001,gid=10001
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    mem_limit: 512m
+    pids_limit: 128
+    cpu_shares: 512
+    restart: always
+
+# Sous-réseau fixe : l'agent joint DSM par la passerelle du réseau (le NAS lui-même), qui ne doit
+# pas changer quand le projet est recréé. À changer s'il recouvre un réseau du site.
+networks:
+  nas:
+    ipam:
+      config:
+        - subnet: ${NAS_SUBNET:-172.29.54.0/24}
+
+# Volumes nommés : Docker les crée avec le propriétaire des images (uid 10001), rien à préparer.
+volumes:
+  agent-data:
+  console-data:
+  console-token:

@@ -1,0 +1,45 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, Text Editor 1.2.5-0254 installé depuis le serveur de Synology puis mis à jour par l'agent (packages.update). Réponse réelle du 2026-11-26.",
+ "action": "upgrade",
+ "beta": false,
+ "betaIncoming": false,
+ "error": {
+  "code": 0
+ },
+ "finished": false,
+ "installReboot": false,
+ "installing": true,
+ "language": "enu",
+ "last_stage": "postuninstall",
+ "package": "TextEditor",
+ "packageName": "Text Editor",
+ "pid": 29285,
+ "scripts": [
+  {
+   "code": 0,
+   "message": "",
+   "type": "stop"
+  },
+  {
+   "code": 0,
+   "message": "",
+   "type": "preupgrade"
+  },
+  {
+   "code": 0,
+   "message": "",
+   "type": "preuninst"
+  },
+  {
+   "code": 0,
+   "message": "",
+   "type": "postuninst"
+  }
+ ],
+ "spk": "/volume1/@tmp/synopkg/download.JpcNyL/@SYNOPKG_DOWNLOAD_TextEditor",
+ "stage": "uninstalled",
+ "status": "upgrading",
+ "success": true,
+ "username": "claude",
+ "version": "1.2.5-0254"
+}

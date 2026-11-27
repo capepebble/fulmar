@@ -1,0 +1,350 @@
+{
+ "_synthetic": true,
+ "_source": "Synthétique : d'après les données de test de py-synologydsm-api (MIT), réduites et nettoyées. À remplacer par une réponse du NAS d'essai.",
+ "disks": [
+  {
+   "adv_progress": "",
+   "adv_status": "not_support",
+   "below_remain_life_thr": false,
+   "compatibility": "disabled",
+   "container": {
+    "order": 0,
+    "str": "DS1819+",
+    "supportPwrBtnDisable": false,
+    "type": "internal"
+   },
+   "device": "/dev/sda",
+   "disable_secera": false,
+   "diskType": "SATA",
+   "disk_code": "",
+   "erase_time": 0,
+   "exceed_bad_sector_thr": false,
+   "firm": "81.00A81",
+   "has_system": true,
+   "id": "sda",
+   "ihm_testing": false,
+   "is4Kn": false,
+   "isSsd": false,
+   "isSynoPartition": true,
+   "is_erasing": false,
+   "longName": "Drive 1",
+   "model": "WD80EFAX-68KNBN0        ",
+   "name": "Drive 1",
+   "num_id": 1,
+   "order": 1,
+   "overview_status": "normal",
+   "pciSlot": -1,
+   "perf_testing": false,
+   "portType": "normal",
+   "remain_life": -1,
+   "remote_info": {
+    "compatibility": "disabled",
+    "unc": 0
+   },
+   "serial": "SERIAL0001",
+   "size_total": "8001563222016",
+   "smart_progress": "",
+   "smart_status": "normal",
+   "smart_test_limit": 0,
+   "smart_testing": false,
+   "status": "normal",
+   "support": false,
+   "temp": 39,
+   "testing_progress": "",
+   "testing_type": "",
+   "tray_status": "join",
+   "unc": 0,
+   "used_by": "reuse_1",
+   "vendor": "WDC     "
+  },
+  {
+   "adv_progress": "",
+   "adv_status": "not_support",
+   "below_remain_life_thr": false,
+   "compatibility": "disabled",
+   "container": {
+    "order": 0,
+    "str": "DS1819+",
+    "supportPwrBtnDisable": false,
+    "type": "internal"
+   },
+   "device": "/dev/sdb",
+   "disable_secera": false,
+   "diskType": "SATA",
+   "disk_code": "",
+   "erase_time": 0,
+   "exceed_bad_sector_thr": false,
+   "firm": "81.00A81",
+   "has_system": true,
+   "id": "sdb",
+   "ihm_testing": false,
+   "is4Kn": false,
+   "isSsd": false,
+   "isSynoPartition": true,
+   "is_erasing": false,
+   "longName": "Drive 2",
+   "model": "WD80EFAX-68KNBN0        ",
+   "name": "Drive 2",
+   "num_id": 2,
+   "order": 2,
+   "overview_status": "warning",
+   "pciSlot": -1,
+   "perf_testing": false,
+   "portType": "normal",
+   "remain_life": -1,
+   "remote_info": {
+    "compatibility": "disabled",
+    "unc": 0
+   },
+   "serial": "SERIAL0002",
+   "size_total": "8001563222016",
+   "smart_progress": "",
+   "smart_status": "warning",
+   "smart_test_limit": 0,
+   "smart_testing": false,
+   "status": "normal",
+   "support": false,
+   "temp": 58,
+   "testing_progress": "",
+   "testing_type": "",
+   "tray_status": "join",
+   "unc": 0,
+   "used_by": "reuse_1",
+   "vendor": "WDC     "
+  }
+ ],
+ "storagePools": [
+  {
+   "cacheStatus": "",
+   "can_do": {
+    "data_scrubbing": true,
+    "delete": true,
+    "expand_by_disk": 1,
+    "raid_cross": true
+   },
+   "container": "internal",
+   "desc": "SHR-2",
+   "device_type": "shr_with_2_disk_protect",
+   "disk_failure_number": 0,
+   "disks": [
+    "sda",
+    "sdb"
+   ],
+   "drive_type": 0,
+   "id": "reuse_1",
+   "is_actioning": false,
+   "is_scheduled": false,
+   "is_writable": true,
+   "last_done_time": 0,
+   "limited_disk_number": 24,
+   "maximal_disk_size": "0",
+   "minimal_disk_size": "8001457274880",
+   "next_schedule_time": 0,
+   "num_id": 1,
+   "pool_child": [
+    {
+     "id": "volume_1",
+     "size": {
+      "total": "39978088267776"
+     }
+    }
+   ],
+   "pool_path": "reuse_1",
+   "progress": {
+    "percent": "-1",
+    "step": "none"
+   },
+   "raidType": "multiple",
+   "raids": [
+    {
+     "designedDiskCount": 6,
+     "devices": [
+      {
+       "id": "sdf",
+       "slot": 5,
+       "status": "normal"
+      },
+      {
+       "id": "sde",
+       "slot": 4,
+       "status": "normal"
+      },
+      {
+       "id": "sdd",
+       "slot": 3,
+       "status": "normal"
+      },
+      {
+       "id": "sdc",
+       "slot": 2,
+       "status": "normal"
+      },
+      {
+       "id": "sdb",
+       "slot": 1,
+       "status": "normal"
+      },
+      {
+       "id": "sda",
+       "slot": 0,
+       "status": "normal"
+      }
+     ],
+     "hasParity": true,
+     "minDevSize": "8001457274880",
+     "normalDevCount": 6,
+     "raidPath": "/dev/md3",
+     "raidStatus": 1,
+     "spares": []
+    },
+    {
+     "designedDiskCount": 8,
+     "devices": [
+      {
+       "id": "sdh",
+       "slot": 7,
+       "status": "normal"
+      },
+      {
+       "id": "sdg",
+       "slot": 6,
+       "status": "normal"
+      },
+      {
+       "id": "sdf",
+       "slot": 5,
+       "status": "normal"
+      },
+      {
+       "id": "sde",
+       "slot": 4,
+       "status": "normal"
+      },
+      {
+       "id": "sdd",
+       "slot": 3,
+       "status": "normal"
+      },
+      {
+       "id": "sdc",
+       "slot": 2,
+       "status": "normal"
+      },
+      {
+       "id": "sdb",
+       "slot": 1,
+       "status": "normal"
+      },
+      {
+       "id": "sda",
+       "slot": 0,
+       "status": "normal"
+      }
+     ],
+     "hasParity": true,
+     "minDevSize": "8001457274880",
+     "normalDevCount": 8,
+     "raidPath": "/dev/md2",
+     "raidStatus": 1,
+     "spares": []
+    }
+   ],
+   "scrubbingStatus": "has_not_run_yet",
+   "size": {
+    "total": "39978100850688",
+    "used": "39978100850688"
+   },
+   "space_path": "/dev/vg1",
+   "spares": [],
+   "status": "normal",
+   "suggestions": [],
+   "timebackup": false,
+   "vspace_can_do": {
+    "drbd": {
+     "resize": {
+      "can_do": false,
+      "errCode": 53504,
+      "stopService": false
+     }
+    },
+    "flashcache": {
+     "apply": {
+      "can_do": false,
+      "errCode": 768,
+      "stopService": false
+     },
+     "remove": {
+      "can_do": false,
+      "errCode": 768,
+      "stopService": false
+     },
+     "resize": {
+      "can_do": false,
+      "errCode": 768,
+      "stopService": false
+     }
+    },
+    "snapshot": {
+     "resize": {
+      "can_do": false,
+      "errCode": 53504,
+      "stopService": false
+     }
+    }
+   }
+  }
+ ],
+ "volumes": [
+  {
+   "atime_checked": false,
+   "atime_opt": "relatime",
+   "cacheStatus": "",
+   "container": "internal",
+   "desc": "Located on Storage Pool 1, SHR",
+   "device_type": "shr_with_2_disk_protect",
+   "disk_failure_number": 0,
+   "disks": [],
+   "drive_type": 0,
+   "eppool_used": "0",
+   "exist_alive_vdsm": false,
+   "fs_type": "btrfs",
+   "id": "volume_1",
+   "is_acting": false,
+   "is_actioning": false,
+   "is_inode_full": false,
+   "is_scheduled": false,
+   "is_writable": true,
+   "last_done_time": 0,
+   "limited_disk_number": 24,
+   "max_fs_size": "1152921504606846976",
+   "next_schedule_time": 0,
+   "num_id": 1,
+   "pool_path": "reuse_1",
+   "progress": {
+    "percent": "-1",
+    "step": "none"
+   },
+   "raidType": "multiple",
+   "scrubbingStatus": "",
+   "size": {
+    "free_inode": "0",
+    "total": "38378964738048",
+    "total_device": "39978088267776",
+    "total_inode": "0",
+    "used": "26724878606336"
+   },
+   "ssd_trim": {
+    "support": "not support"
+   },
+   "status": "normal",
+   "suggestions": [],
+   "timebackup": false,
+   "used_by_gluster": false,
+   "vol_path": "/volume1"
+  }
+ ],
+ "env": {
+  "bay_number": "8",
+  "model_name": "DS1819+"
+ }
+}

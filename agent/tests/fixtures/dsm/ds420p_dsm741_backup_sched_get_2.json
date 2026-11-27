@@ -1,0 +1,59 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales : « Essai local » planifiée chaque jour à 3 h, contrôle d'intégrité planifié le dimanche à 4 h et lancé le 2026-11-09 à 10 h 35 ; « Essai en échec » sans planning. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "data_enc": false,
+ "data_type": "data",
+ "ext3ShareList": [],
+ "name": "Essai en échec",
+ "repo_id": 1,
+ "source": {
+  "app_config": [],
+  "app_list": [],
+  "app_name_list": [],
+  "backup_filter": {
+   "exclude_list": [],
+   "whitelist": []
+  },
+  "backup_volumes": [],
+  "file_list": [
+   {
+    "dataEncrypted": false,
+    "encryptedShare": false,
+    "fileSystem": "BTRFS",
+    "fileSystemType": "internal",
+    "folderPath": "/essai",
+    "fullPath": "/volume1/essai",
+    "isValidSource": true,
+    "missing": false
+   }
+  ],
+  "folder_list": [
+   {
+    "dataEncrypted": false,
+    "encryptedShare": false,
+    "fileSystem": "BTRFS",
+    "fileSystemType": "internal",
+    "folderPath": "/essai",
+    "fullPath": "/volume1/essai",
+    "isValidSource": true,
+    "missing": false
+   }
+  ],
+  "share_list": {
+   "essai": {
+    "dataEncrypted": false,
+    "encryptedShare": false,
+    "fileSystem": "BTRFS",
+    "fileSystemType": "internal",
+    "fullPath": "/volume1/essai",
+    "isValidSource": true
+   }
+  }
+ },
+ "state": "backupable",
+ "status": "none",
+ "target_id": "echec.hbk",
+ "target_type": "image",
+ "task_id": 2,
+ "transfer_type": "image_local",
+ "type": "image:image_local"
+}

@@ -1,0 +1,28 @@
+{
+  "op": "connections.current",
+  "fetched_at": "2026-11-09T15:26:47.675546+00:00",
+  "cached": false,
+  "data": {
+    "total": 2,
+    "sessions": [
+      {
+        "account": "claude",
+        "service": "DiskStation Manager",
+        "protocol": "HTTP/HTTPS",
+        "address": "192.0.2.1",
+        "since": "2026-11-09T07:43:23",
+        "client": null,
+        "is_agent": false
+      },
+      {
+        "account": "utilisateur",
+        "service": "DiskStation Manager",
+        "protocol": "HTTP/HTTPS",
+        "address": "192.0.2.1",
+        "since": "2026-11-06T15:49:04",
+        "client": null,
+        "is_agent": false
+      }
+    ]
+  }
+}

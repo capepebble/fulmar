@@ -1,0 +1,42 @@
+{
+ "_synthetic": true,
+ "_source": "Synthétique : forme relevée le 2026-11-26 sur un NAS qui fait tourner Active Backup for Business et for Microsoft 365 ; clés et codes d'état gardés, toutes les autres valeurs remplacées.",
+ "device_list": [
+  {
+   "device_id": 11,
+   "device_name": "vm-compta",
+   "task_name": "Machines virtuelles",
+   "time_start": 1795636800,
+   "time_end": 1795638600
+  },
+  {
+   "device_id": 12,
+   "device_name": "vm-erp",
+   "task_name": "Machines virtuelles",
+   "time_start": 1795636800,
+   "time_end": 1795638600
+  },
+  {
+   "device_id": 13,
+   "device_name": "vm-messagerie",
+   "task_name": "Machines virtuelles",
+   "time_start": 1795636800,
+   "time_end": 1795638600
+  },
+  {
+   "device_id": 21,
+   "device_name": "accueil-pc",
+   "task_name": "Poste accueil",
+   "time_start": 1795636800,
+   "time_end": 1795638600
+  },
+  {
+   "device_id": 22,
+   "device_name": "direction-portable",
+   "task_name": "Portable direction",
+   "time_start": 1795392000,
+   "time_end": 1795393800
+  }
+ ],
+ "total": 5
+}

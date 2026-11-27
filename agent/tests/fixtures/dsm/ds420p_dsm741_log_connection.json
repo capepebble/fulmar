@@ -1,0 +1,849 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub ; comptes personnels remplacés par des pseudonymes.",
+ "errorCount": 0,
+ "infoCount": 102,
+ "items": [
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:51:58",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:51:17",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:51:01",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:50:29",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:50:01",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:49:49",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:49:48",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 08:49:33",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:50:57",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:43:24",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:42:48",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:42:16",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:40:35",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:40:20",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:40:02",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:39:51",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:39:32",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:38:52",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:38:18",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:38:17",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:38:15",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:38:06",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:37:50",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/09 07:37:43",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:06:44",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:02:51",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:02:25",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:02:23",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:02:06",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:01:40",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:01:28",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:00:55",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 18:00:47",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 17:08:00",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 17:06:06",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 17:01:11",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 17:00:50",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 16:58:30",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 16:50:05",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 16:49:46",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 16:49:32",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 16:49:02",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 16:47:29",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/08 16:47:16",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:14:59",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:09:42",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:08:54",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:08:36",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:08:29",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:08:16",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:08:08",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:08:00",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:07:58",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:07:47",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:07:36",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:06:37",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:06:31",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:06:25",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:05:48",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:05:24",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 16:05:18",
+   "who": "claude"
+  },
+  {
+   "descr": "User [utilisateur] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:49:04",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:30:30",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:29:43",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:28:21",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:28:02",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:27:47",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:27:29",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:26:53",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:26:42",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:26:30",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:26:05",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:25:49",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:25:35",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:25:26",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:25:26",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:25:16",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:24:13",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:24:07",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:24:01",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:22:20",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:22:14",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:22:08",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:22:01",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:22:00",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:20:37",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:20:29",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:20:01",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:20:01",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:19:45",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:19:34",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:19:34",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] failed to log in via [SSH] due to authorization failure.",
+   "level": "warn",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:18:56",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 14:00:24",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:57:02",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:56:18",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:53:02",
+   "who": "claude"
+  },
+  {
+   "descr": "User [] from [192.0.2.1] failed to sign in to [DSM] via [password] due to authorization failure.",
+   "level": "warn",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:34:03",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:32:34",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:32:32",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:31:45",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:15:10",
+   "who": "claude"
+  },
+  {
+   "descr": "User [ancien-compte] from [192.0.2.1] failed to sign in to [DSM] via [password] due to authorization failure.",
+   "level": "warn",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:10:50",
+   "who": "ancien-compte"
+  },
+  {
+   "descr": "User [utilisateur] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:04:07",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "User [admin] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 12:57:41",
+   "who": "admin"
+  }
+ ],
+ "total": 105,
+ "warnCount": 3
+}

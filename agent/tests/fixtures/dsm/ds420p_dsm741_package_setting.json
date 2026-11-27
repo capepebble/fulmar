@@ -1,0 +1,25 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, à jour, paquets d'origine plus Hyper Backup et Container Manager. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "autoupdateall": false,
+ "autoupdateimportant": true,
+ "enable_autoupdate": true,
+ "enable_dsm": true,
+ "enable_email": false,
+ "mailset": false,
+ "show_disable_autoupdate": true,
+ "trust_level": 0,
+ "update_channel": true,
+ "volume_count": 1,
+ "volume_list": [
+  {
+   "desc": "",
+   "display": "Volume 1 (Available capacity:  10716.62 GB )",
+   "mount_point": "/volume1",
+   "size_free": "11506879737856",
+   "size_total": "11508794368000",
+   "vol_desc": "",
+   "volume_features": []
+  }
+ ],
+ "volume_status": "unknown"
+}

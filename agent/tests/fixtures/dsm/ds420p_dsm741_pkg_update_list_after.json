@@ -1,0 +1,57 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, Text Editor 1.2.5-0254 installé depuis le serveur de Synology puis mis à jour par l'agent (packages.update). Réponse réelle du 2026-11-26, réduite à trois paquets.",
+ "packages": [
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/26"
+   },
+   "id": "ActiveBackup",
+   "name": "Active Backup for Business",
+   "timestamp": 1795716112674,
+   "version": "3.2.2-25554"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "HyperBackup",
+   "name": "Hyper Backup",
+   "timestamp": 1795716112863,
+   "version": "4.2.2-4262"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/26"
+   },
+   "id": "TextEditor",
+   "name": "Text Editor",
+   "timestamp": 1795716113054,
+   "version": "1.2.6-0260"
+  }
+ ],
+ "total": 3
+}

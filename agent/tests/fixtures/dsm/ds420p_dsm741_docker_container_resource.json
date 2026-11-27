@@ -1,0 +1,35 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, un disque de 12 To en SHR sans protection, Container Manager avec cinq conteneurs (agent, moteur d'essai, Tailscale, Beszel). Réponse réelle du 2026-11-26, nettoyée par nas_agent.probe.scrub.",
+ "resources": [
+  {
+   "cpu": 0,
+   "memory": 153165824,
+   "memoryPercent": 8.331291198730469,
+   "name": "nas-moteur-essai-console-1"
+  },
+  {
+   "cpu": 0.15000000596046448,
+   "memory": 154238976,
+   "memoryPercent": 8.389663696289062,
+   "name": "nas-moteur-essai-agent-1"
+  },
+  {
+   "cpu": 0.15000000596046448,
+   "memory": 121610240,
+   "memoryPercent": 6.614858627319336,
+   "name": "nas-agent"
+  },
+  {
+   "cpu": 0,
+   "memory": 48930816,
+   "memoryPercent": 2.661539316177368,
+   "name": "nas-agent-tailscale"
+  },
+  {
+   "cpu": 0,
+   "memory": 21164032,
+   "memoryPercent": 1.1511948108673096,
+   "name": "beszel-agent"
+  }
+ ]
+}

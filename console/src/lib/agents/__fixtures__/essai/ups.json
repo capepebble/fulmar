@@ -1,0 +1,17 @@
+{
+  "op": "ups.status",
+  "fetched_at": "2026-11-09T15:26:47.643302+00:00",
+  "cached": false,
+  "data": {
+    "enabled": false,
+    "mode": null,
+    "status": "unknown",
+    "on_battery": null,
+    "charge_percent": null,
+    "runtime_seconds": null,
+    "manufacturer": null,
+    "model": null,
+    "usb_detected": false,
+    "network_server": null
+  }
+}

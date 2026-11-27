@@ -1,0 +1,121 @@
+{
+  "op": "shares.list",
+  "fetched_at": "2026-11-09T15:26:47.400304+00:00",
+  "cached": false,
+  "data": {
+    "summary": {
+      "total": 5,
+      "encrypted": 0,
+      "with_recycle_bin": 1,
+      "with_snapshots": 5,
+      "with_snapshot_schedule": 5
+    },
+    "shares": [
+      {
+        "name": "Compta été",
+        "volume": "/volume1",
+        "description": "NAS d'essai : nom accentué",
+        "encrypted": false,
+        "hidden": false,
+        "usb": false,
+        "recycle_bin": true,
+        "recycle_bin_admins_only": true,
+        "used_mib": 0.01,
+        "quota_mib": null,
+        "snapshots": {
+          "supported": true,
+          "count": 2,
+          "locked": 0,
+          "oldest_at": "2026-11-09T07:40:22+01:00",
+          "latest_at": "2026-11-09T07:40:25+01:00",
+          "scheduled": true,
+          "next_scheduled_at": "2026-11-10T03:00:00"
+        }
+      },
+      {
+        "name": "docker",
+        "volume": "/volume1",
+        "description": null,
+        "encrypted": false,
+        "hidden": false,
+        "usb": false,
+        "recycle_bin": false,
+        "recycle_bin_admins_only": false,
+        "used_mib": 0.0,
+        "quota_mib": null,
+        "snapshots": {
+          "supported": true,
+          "count": 2,
+          "locked": 0,
+          "oldest_at": "2026-11-09T07:40:22+01:00",
+          "latest_at": "2026-11-09T07:40:25+01:00",
+          "scheduled": true,
+          "next_scheduled_at": "2026-11-10T03:00:00"
+        }
+      },
+      {
+        "name": "essai",
+        "volume": "/volume1",
+        "description": "NAS d'essai : Hyper Backup",
+        "encrypted": false,
+        "hidden": false,
+        "usb": false,
+        "recycle_bin": false,
+        "recycle_bin_admins_only": false,
+        "used_mib": 5.02,
+        "quota_mib": null,
+        "snapshots": {
+          "supported": true,
+          "count": 2,
+          "locked": 0,
+          "oldest_at": "2026-11-09T07:40:22+01:00",
+          "latest_at": "2026-11-09T07:40:25+01:00",
+          "scheduled": true,
+          "next_scheduled_at": "2026-11-10T03:00:00"
+        }
+      },
+      {
+        "name": "homes",
+        "volume": "/volume1",
+        "description": "homes contains all users' home",
+        "encrypted": false,
+        "hidden": false,
+        "usb": false,
+        "recycle_bin": false,
+        "recycle_bin_admins_only": false,
+        "used_mib": 0.0,
+        "quota_mib": null,
+        "snapshots": {
+          "supported": true,
+          "count": 2,
+          "locked": 0,
+          "oldest_at": "2026-11-09T07:40:22+01:00",
+          "latest_at": "2026-11-09T07:40:25+01:00",
+          "scheduled": true,
+          "next_scheduled_at": "2026-11-10T03:00:00"
+        }
+      },
+      {
+        "name": "sauvegardes",
+        "volume": "/volume1",
+        "description": "NAS d'essai : Hyper Backup",
+        "encrypted": false,
+        "hidden": false,
+        "usb": false,
+        "recycle_bin": false,
+        "recycle_bin_admins_only": false,
+        "used_mib": 1138.35,
+        "quota_mib": null,
+        "snapshots": {
+          "supported": true,
+          "count": 2,
+          "locked": 0,
+          "oldest_at": "2026-11-09T07:40:22+01:00",
+          "latest_at": "2026-11-09T07:40:25+01:00",
+          "scheduled": true,
+          "next_scheduled_at": "2026-11-10T03:00:00"
+        }
+      }
+    ]
+  }
+}

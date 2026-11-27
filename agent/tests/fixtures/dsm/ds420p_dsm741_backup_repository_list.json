@@ -1,0 +1,14 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, tâche Hyper Backup locale « Essai local ». Réponse réelle du 2026-11-06, nettoyée par nas_agent.probe.scrub.",
+ "offset": 1,
+ "repo_list": [
+  {
+   "name": "",
+   "repo_id": 1,
+   "share": "sauvegardes",
+   "target_type": "image",
+   "transfer_type": "image_local"
+  }
+ ],
+ "total": 1
+}

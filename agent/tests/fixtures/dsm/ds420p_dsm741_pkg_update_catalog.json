@@ -1,0 +1,166 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, Text Editor 1.2.5-0254 installé depuis le serveur de Synology puis mis à jour par l'agent (packages.update). Réponse réelle du 2026-11-26, réduite à trois paquets.",
+ "banners": [],
+ "beta_packages": [],
+ "categories": [],
+ "packages": [
+  {
+   "beta": false,
+   "breakpkgs": null,
+   "category": [
+    "backup",
+    "business"
+   ],
+   "changelog": "<p><strong>What's New</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Supports browsing files in RAID-based virtual disk partitions via the Active Backup for Business Portal.</li></ol><p><strong>Fixed Issues (General Issues)</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Fixed an issue where version retention might not work properly for workloads protected by an immutable protection plan when the Synology NAS is joined to an ActiveProtect Manager site.</li><li>Fixed an issue where a device's status might remain stuck at \"Deleting\" when the backup repository was busy.</li><li>Fixed an issue where the error message didn't clearly explain why a device couldn't be deleted during a full machine restore.</li><li>Fixed an issue where the Overview page might display an incorrectly large file size for a backup destination.</li><li>Fixed an issue where a device might temporarily appear offline and ongoing backup tasks might fail or be canceled when the backup agent stopped unexpectedly.</li></ol><p><strong>Fixed Issues (PC/Mac)</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Fixed an issue where large macOS volume backups might fail because the backup agent's memory usage kept increasing.</li></ol><p><strong>Fixed Issues (File Server)</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Fixed an issue where file server backups or restores might stop unexpectedly.</li></ol><p><strong>Fixed Issues (Virtual Machine)</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Fixed an issue where backup data from different virtual machines might be mixed in the same version chain because re-registering a virtual machine on the hypervisor might cause its internal identifier to be reused.</li></ol><p><strong>Limitations</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Shared folders with storage efficiency enabled can't be used as backup destinations.</li></ol>",
+   "conflictpkgs": null,
+   "deppkgs": {
+    "SMBService": ""
+   },
+   "desc": "Active Backup for Business is designed to provide a comprehensive while centralized data protection solution, helping you back up business PCs, VMs, physical servers, and file servers all alike.",
+   "distributor_url": "http://www.synology.com/",
+   "dname": "Active Backup for Business",
+   "download_count": 11492551,
+   "id": "ActiveBackup",
+   "ignore_rolling": false,
+   "install_on_cold_storage": true,
+   "is_security_version": false,
+   "link": "https://global.synologydownload.com/download/Package/spk/ActiveBackup/3.2.2-25554/ActiveBackup-x86_64-3.2.2-25554.spk",
+   "maintainer": "Synology Inc.",
+   "maintainer_url": "http://www.synology.com/",
+   "md5": "7620383024b01e9ce0996c0b404b783a",
+   "package": "ActiveBackup",
+   "price": null,
+   "qinst": true,
+   "qstart": true,
+   "qupgrade": true,
+   "recent_download_count": 1184811,
+   "replace_message": "<p>Compatibility &amp; Installation</p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Updated to be compatible with DSM 7.0 Preview.</li></ol>",
+   "replaceforcepkgs": null,
+   "replacepkgs": null,
+   "sha256": "8fbb88a9b26c5e0306302873201110de981fa7e6993da2cab3c05c4328111237",
+   "silent_install": true,
+   "silent_uninstall": true,
+   "silent_upgrade": true,
+   "size": 515210454,
+   "snapshot": [
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/activebackup_1607392921_1.png",
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/activebackup_1606734768_1.png",
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/activebackup_1606732047_1.png",
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/activebackup_1606734863_1.png"
+   ],
+   "source": "syno",
+   "start": true,
+   "thumbnail": [
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/thumb_72.png",
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/thumb_256.png"
+   ],
+   "thumbnail_retina": [
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/thumb_256.png",
+    "https://global.synologydownload.com/download/Package/img/ActiveBackup/3.2.2-25554/thumb_256.png"
+   ],
+   "type": 0,
+   "version": "3.2.2-25554"
+  },
+  {
+   "beta": false,
+   "breakpkgs": null,
+   "category": [
+    "backup",
+    "business"
+   ],
+   "changelog": "<p><strong>Compatibility &amp; Installation</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Hyper Backup 4.2.2 requires DSM 7.3 and above.</li></ol><p><strong>What's New</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Added support for a safeguard that prevents shared folders with ongoing backup or restore tasks from being added to or removed from a tiering task, avoiding unexpected errors.</li></ol><p><strong>Fixed Issues</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Fixed an issue where a backup task might not be deleted when Hyper Backup could not connect to its remote Synology NAS or cloud backup destination.</li><li>Fixed an issue where certain log entries might be incorrectly displayed as \"Error\" instead of \"Information\".</li><li>Fixed an issue where Backup Explorer might not display correctly when backing up an entire system to a remote NAS running DSM 7.4.</li><li>Fixed an issue where subsequent backups might fail if the source storage space or LUN capacity was expanded after the first entire system backup.</li><li>Fixed an issue where the task might become unresponsive during cancellation if firewall or routing settings prevented packets from reaching the remote Synology NAS.</li><li>Fixed an issue where Hyper Backup Explorer might fail to display files for entire system backups stored on Synology C2 Storage.</li></ol>",
+   "conflictpkgs": null,
+   "deppkgs": null,
+   "desc": "Hyper Backup helps you protect shared folder data, packages, and LUNs on your Synology storage system, providing diverse backup destinations and multiple backup versions. Restoration is available with a straightforward version-browsing interface.",
+   "distributor_url": "http://www.synology.com/",
+   "dname": "Hyper Backup",
+   "download_count": 43485928,
+   "id": "HyperBackup",
+   "ignore_rolling": false,
+   "install_on_cold_storage": true,
+   "is_security_version": false,
+   "link": "https://global.synologydownload.com/download/Package/spk/HyperBackup/4.2.2-4262/HyperBackup-x86_64-4.2.2-4262.spk",
+   "maintainer": "Synology Inc.",
+   "maintainer_url": "http://www.synology.com/",
+   "md5": "5d84f818445fa8f326998076dcf47ab2",
+   "package": "HyperBackup",
+   "price": null,
+   "qinst": true,
+   "qstart": true,
+   "qupgrade": true,
+   "recent_download_count": 424697,
+   "replaceforcepkgs": null,
+   "replacepkgs": null,
+   "sha256": "08006540b0d4f3c2fd87fe6b6492caf6d5f29e8e6b2caa8a4292c5e77faecc54",
+   "silent_install": true,
+   "silent_uninstall": true,
+   "silent_upgrade": true,
+   "size": 38942048,
+   "snapshot": [
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/hyperbackup_1606381221_1.png",
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/hyperbackup_1606381221_2.png",
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/hyperbackup_1606381221_3.png",
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/hyperbackup_1606381221_4.png"
+   ],
+   "source": "syno",
+   "start": true,
+   "thumbnail": [
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/thumb_72.png",
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/thumb_256.png"
+   ],
+   "thumbnail_retina": [
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/thumb_256.png",
+    "https://global.synologydownload.com/download/Package/img/HyperBackup/4.2.2-4262/thumb_256.png"
+   ],
+   "type": 0,
+   "version": "4.2.2-4262"
+  },
+  {
+   "beta": false,
+   "breakpkgs": null,
+   "category": [
+    "utilities"
+   ],
+   "changelog": "<p><strong>Important notes</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>The update is expected to be available in all regions within the next few days. The actual time of release may vary slightly depending on the region.</li></ol><p><strong>Fixed Issues</strong></p><ol style=\"list-style: decimal; padding-left: 30px;\"><li>Minor bug fixes and overall stability enhancement.</li></ol>",
+   "conflictpkgs": null,
+   "deppkgs": null,
+   "desc": "Text Editor provides you with extensive editing features to handle plain text files, such as programming scripts and HTML files, directly in DSM.",
+   "dname": "Text Editor",
+   "download_count": 7749981,
+   "id": "TextEditor",
+   "ignore_rolling": false,
+   "is_security_version": false,
+   "link": "https://global.synologydownload.com/download/Package/spk/TextEditor/1.2.6-0260/TextEditor-x86_64-1.2.6-0260.spk",
+   "maintainer": "Synology Inc.",
+   "md5": "df3bf9e83af7b85cd7df43ecb21cccfe",
+   "package": "TextEditor",
+   "price": null,
+   "qinst": true,
+   "qstart": true,
+   "qupgrade": true,
+   "recent_download_count": 89370,
+   "replaceforcepkgs": null,
+   "replacepkgs": null,
+   "sha256": "47d840b85cc66909043d8df52af463b975a929cad51f42626a78c7f683ee42b0",
+   "silent_install": true,
+   "silent_upgrade": true,
+   "size": 2074810,
+   "snapshot": [
+    "https://global.synologydownload.com/download/Package/img/TextEditor/1.2.6-0260/texteditor_1606739207_1.png"
+   ],
+   "source": "syno",
+   "start": true,
+   "thumbnail": [
+    "https://global.synologydownload.com/download/Package/img/TextEditor/1.2.6-0260/thumb_72.png",
+    "https://global.synologydownload.com/download/Package/img/TextEditor/1.2.6-0260/thumb_256.png"
+   ],
+   "thumbnail_retina": [
+    "https://global.synologydownload.com/download/Package/img/TextEditor/1.2.6-0260/thumb_256.png",
+    "https://global.synologydownload.com/download/Package/img/TextEditor/1.2.6-0260/thumb_256.png"
+   ],
+   "type": 0,
+   "version": "1.2.6-0260"
+  }
+ ],
+ "total": 3
+}

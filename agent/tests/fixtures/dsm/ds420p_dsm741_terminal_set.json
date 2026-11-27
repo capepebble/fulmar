@@ -1,0 +1,4 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2. Réponse réelle du 2026-11-26 à SYNO.Core.Terminal set v3 avec le seul champ enable_telnet=false (Telnet allumé à la main juste avant) ; SSH est resté ouvert.",
+ "httpd_restart": false
+}

@@ -1,0 +1,61 @@
+{
+  "op": "system.utilization",
+  "fetched_at": "2026-11-09T15:26:47.077632+00:00",
+  "cached": false,
+  "data": {
+    "cpu": {
+      "total_pct": 9,
+      "user_pct": 4,
+      "system_pct": 2,
+      "other_pct": 3,
+      "load_1m": 0.37,
+      "load_5m": 0.33,
+      "load_15m": 0.51
+    },
+    "memory": {
+      "size_kb": 4194304,
+      "total_real_kb": 3867268,
+      "avail_real_kb": 156188,
+      "cached_kb": 2764756,
+      "real_usage_pct": 24,
+      "swap_usage_pct": 6
+    },
+    "network": [
+      { "device": "total", "rx_bps": 109549, "tx_bps": 45097 },
+      { "device": "eth0", "rx_bps": 109549, "tx_bps": 45097 },
+      { "device": "eth1", "rx_bps": 0, "tx_bps": 0 }
+    ],
+    "disks": [
+      {
+        "device": "sdc",
+        "name": "Drive 3",
+        "utilization_pct": 12,
+        "read_bps": 55261,
+        "write_bps": 419425
+      },
+      {
+        "device": "sda",
+        "name": "Drive 1",
+        "utilization_pct": 8,
+        "read_bps": 63905,
+        "write_bps": 414795
+      },
+      {
+        "device": "sdb",
+        "name": "Drive 2",
+        "utilization_pct": 10,
+        "read_bps": 55891,
+        "write_bps": 415658
+      }
+    ],
+    "volumes": [
+      {
+        "device": "md2",
+        "name": "volume1",
+        "utilization_pct": 1,
+        "read_bps": 27603,
+        "write_bps": 132496
+      }
+    ]
+  }
+}

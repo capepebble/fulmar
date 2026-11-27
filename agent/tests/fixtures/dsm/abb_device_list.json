@@ -1,0 +1,278 @@
+{
+ "_synthetic": true,
+ "_source": "Synthétique : forme relevée le 2026-11-26 sur un NAS qui fait tourner Active Backup for Business et for Microsoft 365 ; clés et codes d'état gardés, toutes les autres valeurs remplacées.",
+ "devices": [
+  {
+   "agent_token": "",
+   "agentless_auth_policy": 0,
+   "auto_discovery": false,
+   "backup_type": 1,
+   "create_time": 1795363200,
+   "device_id": 11,
+   "device_uuid": "",
+   "dsm_model": "",
+   "dsm_unique": "",
+   "enable_auto_fill_workgroup": false,
+   "host_ip": "",
+   "host_name": "vm-compta",
+   "host_port": 1,
+   "hypervisor_id": "",
+   "inventory_id": 83,
+   "kernel_version": "",
+   "last_result": {
+    "activity_uuid": "",
+    "backup_type": 1,
+    "detail_path": "",
+    "error_count": 0,
+    "job_action": 1,
+    "none_count": 0,
+    "result_id": 84,
+    "status": 2,
+    "success_count": 1,
+    "task_config": {
+     "device_list": [
+      {
+       "device_id": 11,
+       "host_name": "vm-compta"
+      }
+     ]
+    },
+    "task_id": 1,
+    "task_name": "Machines virtuelles",
+    "time_end": 1795640400,
+    "time_start": 1795636800,
+    "warning_count": 0
+   },
+   "login_password": "",
+   "login_time": 0,
+   "login_user": "",
+   "login_user_id": 95,
+   "mssql_password": "",
+   "mssql_user": "",
+   "oracle_password": "",
+   "oracle_user": "",
+   "os_name": "Windows Server 2022",
+   "task_count": 1,
+   "time_zone": 0,
+   "vm_moid_path": ""
+  },
+  {
+   "agent_token": "",
+   "agentless_auth_policy": 0,
+   "auto_discovery": false,
+   "backup_type": 1,
+   "create_time": 1795363200,
+   "device_id": 12,
+   "device_uuid": "",
+   "dsm_model": "",
+   "dsm_unique": "",
+   "enable_auto_fill_workgroup": false,
+   "host_ip": "",
+   "host_name": "vm-erp",
+   "host_port": 1,
+   "hypervisor_id": "",
+   "inventory_id": 83,
+   "kernel_version": "",
+   "last_result": {
+    "activity_uuid": "",
+    "backup_type": 1,
+    "detail_path": "",
+    "error_count": 0,
+    "job_action": 1,
+    "none_count": 0,
+    "result_id": 84,
+    "status": 2,
+    "success_count": 1,
+    "task_config": {
+     "device_list": [
+      {
+       "device_id": 12,
+       "host_name": "vm-erp"
+      }
+     ]
+    },
+    "task_id": 1,
+    "task_name": "Machines virtuelles",
+    "time_end": 1795640400,
+    "time_start": 1795636800,
+    "warning_count": 0
+   },
+   "login_password": "",
+   "login_time": 0,
+   "login_user": "",
+   "login_user_id": 95,
+   "mssql_password": "",
+   "mssql_user": "",
+   "oracle_password": "",
+   "oracle_user": "",
+   "os_name": "Windows Server 2022",
+   "task_count": 1,
+   "time_zone": 0,
+   "vm_moid_path": ""
+  },
+  {
+   "agent_token": "",
+   "agentless_auth_policy": 0,
+   "auto_discovery": false,
+   "backup_type": 1,
+   "create_time": 1795363200,
+   "device_id": 13,
+   "device_uuid": "",
+   "dsm_model": "",
+   "dsm_unique": "",
+   "enable_auto_fill_workgroup": false,
+   "host_ip": "",
+   "host_name": "vm-messagerie",
+   "host_port": 1,
+   "hypervisor_id": "",
+   "inventory_id": 83,
+   "kernel_version": "",
+   "last_result": {
+    "activity_uuid": "",
+    "backup_type": 1,
+    "detail_path": "",
+    "error_count": 0,
+    "job_action": 1,
+    "none_count": 0,
+    "result_id": 84,
+    "status": 2,
+    "success_count": 1,
+    "task_config": {
+     "device_list": [
+      {
+       "device_id": 13,
+       "host_name": "vm-messagerie"
+      }
+     ]
+    },
+    "task_id": 1,
+    "task_name": "Machines virtuelles",
+    "time_end": 1795640400,
+    "time_start": 1795636800,
+    "warning_count": 0
+   },
+   "login_password": "",
+   "login_time": 0,
+   "login_user": "",
+   "login_user_id": 95,
+   "mssql_password": "",
+   "mssql_user": "",
+   "oracle_password": "",
+   "oracle_user": "",
+   "os_name": "Ubuntu 24.04",
+   "task_count": 1,
+   "time_zone": 0,
+   "vm_moid_path": ""
+  },
+  {
+   "agent_token": "",
+   "agentless_auth_policy": 0,
+   "auto_discovery": false,
+   "backup_type": 2,
+   "create_time": 1795363200,
+   "device_id": 21,
+   "device_uuid": "",
+   "dsm_model": "",
+   "dsm_unique": "",
+   "enable_auto_fill_workgroup": false,
+   "host_ip": "",
+   "host_name": "accueil-pc",
+   "host_port": 1,
+   "hypervisor_id": "",
+   "inventory_id": 83,
+   "kernel_version": "",
+   "last_result": {
+    "activity_uuid": "",
+    "backup_type": 1,
+    "detail_path": "",
+    "error_count": 0,
+    "job_action": 1,
+    "none_count": 0,
+    "result_id": 84,
+    "status": 2,
+    "success_count": 1,
+    "task_config": {
+     "device_list": [
+      {
+       "device_id": 21,
+       "host_name": "accueil-pc"
+      }
+     ]
+    },
+    "task_id": 2,
+    "task_name": "Poste accueil",
+    "time_end": 1795640400,
+    "time_start": 1795636800,
+    "warning_count": 0
+   },
+   "login_password": "",
+   "login_time": 0,
+   "login_user": "",
+   "login_user_id": 95,
+   "mssql_password": "",
+   "mssql_user": "",
+   "oracle_password": "",
+   "oracle_user": "",
+   "os_name": "Windows 11",
+   "task_count": 1,
+   "time_zone": 0,
+   "vm_moid_path": ""
+  },
+  {
+   "agent_token": "",
+   "agentless_auth_policy": 0,
+   "auto_discovery": false,
+   "backup_type": 2,
+   "create_time": 1795363200,
+   "device_id": 22,
+   "device_uuid": "",
+   "dsm_model": "",
+   "dsm_unique": "",
+   "enable_auto_fill_workgroup": false,
+   "host_ip": "",
+   "host_name": "direction-portable",
+   "host_port": 1,
+   "hypervisor_id": "",
+   "inventory_id": 83,
+   "kernel_version": "",
+   "last_result": {
+    "activity_uuid": "",
+    "backup_type": 1,
+    "detail_path": "",
+    "error_count": 0,
+    "job_action": 1,
+    "none_count": 0,
+    "result_id": 84,
+    "status": 5,
+    "success_count": 1,
+    "task_config": {
+     "device_list": [
+      {
+       "device_id": 22,
+       "host_name": "direction-portable"
+      }
+     ]
+    },
+    "task_id": 3,
+    "task_name": "Portable direction",
+    "time_end": 1795640400,
+    "time_start": 1795636800,
+    "warning_count": 0
+   },
+   "login_password": "",
+   "login_time": 0,
+   "login_user": "",
+   "login_user_id": 95,
+   "mssql_password": "",
+   "mssql_user": "",
+   "oracle_password": "",
+   "oracle_user": "",
+   "os_name": "Windows 11",
+   "task_count": 1,
+   "time_zone": 0,
+   "vm_moid_path": ""
+  }
+ ],
+ "total": 5,
+ "total_devices_of_backup_type": 5
+}

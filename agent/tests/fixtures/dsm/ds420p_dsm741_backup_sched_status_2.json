@@ -1,0 +1,13 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales : « Essai local » planifiée chaque jour à 3 h, contrôle d'intégrité planifié le dimanche à 4 h et lancé le 2026-11-09 à 10 h 35 ; « Essai en échec » sans planning. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "is_modified": false,
+ "last_bkp_end_time": "2026/11/08 17:05:46",
+ "last_bkp_error": "",
+ "last_bkp_error_code": 4401,
+ "last_bkp_result": "failed_checking",
+ "last_bkp_success_time": "2026/11/08 16:57:38",
+ "last_bkp_time": "2026/11/08 17:05:36",
+ "state": "backupable",
+ "status": "none",
+ "task_id": 2
+}

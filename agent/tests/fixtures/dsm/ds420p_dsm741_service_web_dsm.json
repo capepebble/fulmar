@@ -1,0 +1,23 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, un disque de 12 To en SHR sans protection, Container Manager avec cinq conteneurs (agent, moteur d'essai, Tailscale, Beszel). Réponse réelle du 2026-11-26, nettoyée par nas_agent.probe.scrub.",
+ "enable_avahi": true,
+ "enable_custom_domain": false,
+ "enable_hsts": false,
+ "enable_https_redirect": false,
+ "enable_max_connections": false,
+ "enable_reuseport": false,
+ "enable_server_header": true,
+ "enable_spdy": true,
+ "enable_ssdp": true,
+ "fqdn": null,
+ "http_port": 5000,
+ "https_port": 5001,
+ "main_app": "DSM",
+ "max_connections": 1024,
+ "max_connections_limit": {
+  "lower": 1024,
+  "upper": 65535
+ },
+ "server_header": "nginx",
+ "support_reuseport": true
+}

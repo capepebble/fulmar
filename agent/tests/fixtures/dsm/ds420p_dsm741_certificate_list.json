@@ -1,0 +1,81 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1 ; Security Advisor en groupe « domestique », dossier « Compta été » et instantanés créés pour l'essai. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "certificates": [
+  {
+   "desc": "",
+   "id": "da11rP",
+   "is_broken": false,
+   "is_default": true,
+   "issuer": {
+    "city": "Taipei",
+    "common_name": "Synology Inc. CA",
+    "country": "TW",
+    "organization": "Synology Inc."
+   },
+   "key_types": "",
+   "renewable": false,
+   "self_signed_cacrt_info": {
+    "issuer": {
+     "city": "Taipei",
+     "common_name": "Synology Inc. CA",
+     "country": "TW",
+     "organization": "Synology Inc."
+    },
+    "subject": {
+     "city": "Taipei",
+     "common_name": "Synology Inc. CA",
+     "country": "TW",
+     "organization": "Synology Inc."
+    }
+   },
+   "services": [
+    {
+     "display_name": "KMIP",
+     "display_name_i18n": "remote_key:kmip_tab_title",
+     "isPkg": false,
+     "owner": "<owner>",
+     "service": "kmip",
+     "subscriber": "kmip"
+    },
+    {
+     "display_name": "FTPS",
+     "isPkg": false,
+     "owner": "<owner>",
+     "service": "ftpd",
+     "subscriber": "smbftpd"
+    },
+    {
+     "display_name": "DSM Desktop Service",
+     "display_name_i18n": "common:web_desktop",
+     "isPkg": false,
+     "multiple_cert": true,
+     "owner": "<owner>",
+     "service": "default",
+     "subscriber": "system",
+     "user_setable": true
+    },
+    {
+     "display_name": "Synology Storage Console Server",
+     "display_name_i18n": "SYNO.SDS.iSCSI.Application:service:storage_console_server",
+     "isPkg": true,
+     "owner": "<owner>",
+     "service": "pkg-scsi-plugin-server",
+     "subscriber": "ScsiTarget"
+    }
+   ],
+   "signature_algorithm": "sha256WithRSAEncryption",
+   "subject": {
+    "city": "Taipei",
+    "common_name": "synology",
+    "country": "TW",
+    "organization": "Synology Inc.",
+    "sub_alt_name": [
+     "synology"
+    ]
+   },
+   "user_deletable": true,
+   "valid_from": "Nov  6 11:56:52 2026 GMT",
+   "valid_till": "Nov  7 11:56:52 2027 GMT"
+  }
+ ]
+}

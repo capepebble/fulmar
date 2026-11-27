@@ -1,0 +1,135 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales, dont « Essai en échec » dont la destination a été rendue non modifiable pendant la sauvegarde. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "is_data_restoring": false,
+ "is_downloading": false,
+ "is_lun_restoring": false,
+ "is_restoring": false,
+ "is_snapshot_restoring": false,
+ "task_list": [
+  {
+   "data_enc": false,
+   "data_type": "data",
+   "ext3ShareList": [],
+   "is_modified": false,
+   "last_bkp_end_time": "2026/11/08 17:05:46",
+   "last_bkp_result": "failed_checking",
+   "last_bkp_time": "2026/11/08 17:05:36",
+   "name": "Essai en échec",
+   "repo_id": 1,
+   "source": {
+    "app_config": [],
+    "app_list": [],
+    "app_name_list": [],
+    "backup_filter": {
+     "exclude_list": [],
+     "whitelist": []
+    },
+    "backup_volumes": [],
+    "file_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "folder_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "share_list": {
+     "essai": {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true
+     }
+    }
+   },
+   "state": "backupable",
+   "status": "none",
+   "target_id": "echec.hbk",
+   "target_type": "image",
+   "task_id": 2,
+   "transfer_type": "image_local",
+   "type": "image:image_local"
+  },
+  {
+   "data_enc": false,
+   "data_type": "data",
+   "ext3ShareList": [],
+   "is_modified": false,
+   "last_bkp_end_time": "2026/11/06 16:15:11",
+   "last_bkp_result": "done",
+   "last_bkp_time": "2026/11/06 16:15:00",
+   "name": "Essai local",
+   "repo_id": 1,
+   "source": {
+    "app_config": [],
+    "app_list": [],
+    "app_name_list": [],
+    "backup_filter": {
+     "exclude_list": [],
+     "whitelist": []
+    },
+    "backup_volumes": [],
+    "file_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "folder_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "share_list": {
+     "essai": {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true
+     }
+    }
+   },
+   "state": "backupable",
+   "status": "none",
+   "target_id": "essai.hbk",
+   "target_type": "image",
+   "task_id": 1,
+   "transfer_type": "image_local",
+   "type": "image:image_local"
+  }
+ ],
+ "total": 2
+}

@@ -1,0 +1,146 @@
+{
+  "op": "network.overview",
+  "fetched_at": "2026-11-09T15:26:47.464224+00:00",
+  "cached": false,
+  "data": {
+    "hostname": "<server_name>",
+    "gateway": {
+      "address": "192.0.2.1",
+      "interface": "eth0"
+    },
+    "ipv6_gateway": null,
+    "dns_servers": ["192.0.2.1"],
+    "dns_manual": false,
+    "interfaces": [
+      {
+        "name": "eth0",
+        "kind": "lan",
+        "connected": true,
+        "address": "192.0.2.1",
+        "netmask": "255.255.255.0",
+        "dhcp": true,
+        "speed_mbps": 1000
+      },
+      {
+        "name": "eth1",
+        "kind": "lan",
+        "connected": false,
+        "address": "192.0.2.1",
+        "netmask": "255.255.0.0",
+        "dhcp": true,
+        "speed_mbps": null
+      },
+      {
+        "name": "pppoe",
+        "kind": "pppoe",
+        "connected": false,
+        "address": null,
+        "netmask": null,
+        "dhcp": true,
+        "speed_mbps": null
+      }
+    ],
+    "services": [
+      {
+        "id": "atalk",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "bonjour",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "chronyd",
+        "enabled": true,
+        "running": true
+      },
+      {
+        "id": "cupsd",
+        "enabled": null,
+        "running": false
+      },
+      {
+        "id": "ftp-pure",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "ftp-ssl",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "kmip-server",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "nfs-server",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "pkg-iscsi",
+        "enabled": null,
+        "running": true
+      },
+      {
+        "id": "pkg-synosamba-smbd",
+        "enabled": true,
+        "running": true
+      },
+      {
+        "id": "pkg-synosamba-wstransfer-genconf",
+        "enabled": true,
+        "running": true
+      },
+      {
+        "id": "rsyncd",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "sftp",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "snmpd",
+        "enabled": null,
+        "running": true
+      },
+      {
+        "id": "ssh-shell",
+        "enabled": true,
+        "running": true
+      },
+      {
+        "id": "synoscgi",
+        "enabled": null,
+        "running": true
+      },
+      {
+        "id": "telnetd",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "tftp",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "ups-net",
+        "enabled": false,
+        "running": false
+      },
+      {
+        "id": "ups-usb",
+        "enabled": null,
+        "running": false
+      }
+    ]
+  }
+}

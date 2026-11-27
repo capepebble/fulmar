@@ -1,0 +1,49 @@
+{
+ "_synthetic": true,
+ "_source": "Synthétique : forme relevée le 2026-11-26 sur un NAS qui fait tourner Active Backup for Business et for Microsoft 365 ; clés et codes d'état gardés, toutes les autres valeurs remplacées.",
+ "storages": [
+  {
+   "automount_iv": "",
+   "automount_location": "",
+   "backup_tasks": [],
+   "compacting": false,
+   "compacting_percentage": 0,
+   "compressed_size": 1,
+   "dedup_size": 1,
+   "delete_tasks": [],
+   "delete_versions": [],
+   "device_count": 1,
+   "device_info": {
+    "agentless_count": 0,
+    "agentless_size": 0,
+    "dsm_count": 0,
+    "dsm_size": 0,
+    "pc_count": 1,
+    "pc_size": 1,
+    "server_count": 0,
+    "server_size": 0,
+    "vm_count": 1,
+    "vm_size": 1
+   },
+   "fs_name": "btrfs",
+   "fs_type": 3,
+   "mounted": true,
+   "relink_state": {
+    "alive": false,
+    "error": {
+     "code": 0
+    },
+    "owner": true,
+    "state": 0
+   },
+   "repo_dir": "@ActiveBackup",
+   "share_name": "ActiveBackupforBusiness",
+   "share_type": "",
+   "storage_compress_algorithm": 1,
+   "storage_encrypt_algorithm": 0,
+   "storage_id": 1,
+   "vol_name": "volume1",
+   "volume_path": "/volume1"
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+{
+  "items": [
+    {
+      "attributes": [
+        {
+          "n": "ArrayState",
+          "rv": 0,
+          "rs": "clean"
+        },
+        {
+          "n": "RaidLevel",
+          "rv": 0,
+          "rs": "raid1"
+        },
+        {
+          "n": "RaidDisks",
+          "rv": 4
+        },
+        {
+          "n": "Degraded",
+          "rv": 3
+        },
+        {
+          "n": "SyncAction",
+          "rv": 0,
+          "rs": "idle"
+        },
+        {
+          "n": "SyncCompleted",
+          "rv": 0,
+          "rs": "none"
+        },
+        {
+          "n": "SyncSpeed",
+          "rv": 0,
+          "rs": "none"
+        }
+      ],
+      "capacity": 8589869056,
+      "collectionId": "pbc_2571630677",
+      "collectionName": "smart_devices",
+      "cycles": 0,
+      "firmware": "",
+      "hours": 0,
+      "id": "2326edb5",
+      "model": "Linux MD RAID (raid1)",
+      "name": "/dev/md0",
+      "serial": "",
+      "state": "WARNING",
+      "system": "br2ryctgsfukr6r",
+      "temp": 0,
+      "type": "mdraid",
+      "updated": "2026-11-21 09:08:48.940Z"
+    },
+    {
+      "attributes": [
+        {
+          "n": "ArrayState",
+          "rv": 0,
+          "rs": "clean"
+        },
+        {
+          "n": "RaidLevel",
+          "rv": 0,
+          "rs": "raid1"
+        },
+        {
+          "n": "RaidDisks",
+          "rv": 4
+        },
+        {
+          "n": "Degraded",
+          "rv": 3
+        },
+        {
+          "n": "SyncAction",
+          "rv": 0,
+          "rs": "idle"
+        },
+        {
+          "n": "SyncCompleted",
+          "rv": 0,
+          "rs": "none"
+        },
+        {
+          "n": "SyncSpeed",
+          "rv": 0,
+          "rs": "none"
+        }
+      ],
+      "capacity": 2147418112,
+      "collectionId": "pbc_2571630677",
+      "collectionName": "smart_devices",
+      "cycles": 0,
+      "firmware": "",
+      "hours": 0,
+      "id": "2226ec22",
+      "model": "Linux MD RAID (raid1)",
+      "name": "/dev/md1",
+      "serial": "",
+      "state": "WARNING",
+      "system": "br2ryctgsfukr6r",
+      "temp": 0,
+      "type": "mdraid",
+      "updated": "2026-11-21 09:08:48.938Z"
+    },
+    {
+      "attributes": [
+        {
+          "n": "ArrayState",
+          "rv": 0,
+          "rs": "clean"
+        },
+        {
+          "n": "RaidLevel",
+          "rv": 0,
+          "rs": "raid1"
+        },
+        {
+          "n": "RaidDisks",
+          "rv": 1
+        },
+        {
+          "n": "SyncAction",
+          "rv": 0,
+          "rs": "idle"
+        },
+        {
+          "n": "SyncCompleted",
+          "rv": 0,
+          "rs": "none"
+        },
+        {
+          "n": "SyncSpeed",
+          "rv": 0,
+          "rs": "none"
+        }
+      ],
+      "capacity": 11989150597120,
+      "collectionId": "pbc_2571630677",
+      "collectionName": "smart_devices",
+      "cycles": 0,
+      "firmware": "",
+      "hours": 0,
+      "id": "2126ea8f",
+      "model": "Linux MD RAID (raid1)",
+      "name": "/dev/md2",
+      "serial": "",
+      "state": "PASSED",
+      "system": "br2ryctgsfukr6r",
+      "temp": 0,
+      "type": "mdraid",
+      "updated": "2026-11-21 09:08:48.939Z"
+    },
+    {
+      "attributes": [
+        {
+          "id": 1,
+          "n": "Raw_Read_Error_Rate",
+          "v": 83,
+          "w": 64,
+          "t": 44,
+          "rv": 0,
+          "rs": "0/209044807"
+        },
+        {
+          "id": 3,
+          "n": "Spin_Up_Time",
+          "v": 91,
+          "w": 91,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 4,
+          "n": "Start_Stop_Count",
+          "v": 100,
+          "w": 100,
+          "t": 20,
+          "rv": 529,
+          "rs": "529"
+        },
+        {
+          "id": 5,
+          "n": "Reallocated_Sector_Ct",
+          "v": 100,
+          "w": 100,
+          "t": 10,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 7,
+          "n": "Seek_Error_Rate",
+          "v": 88,
+          "w": 60,
+          "t": 45,
+          "rv": 0,
+          "rs": "0/634863416"
+        },
+        {
+          "id": 9,
+          "n": "Power_On_Hours",
+          "v": 47,
+          "w": 47,
+          "rv": 46880,
+          "rs": "46880"
+        },
+        {
+          "id": 10,
+          "n": "Spin_Retry_Count",
+          "v": 100,
+          "w": 100,
+          "t": 97,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 12,
+          "n": "Power_Cycle_Count",
+          "v": 100,
+          "w": 100,
+          "t": 20,
+          "rv": 379,
+          "rs": "379"
+        },
+        {
+          "id": 18,
+          "n": "Head_Health",
+          "v": 100,
+          "w": 100,
+          "t": 50,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 187,
+          "n": "Reported_Uncorrect",
+          "v": 100,
+          "w": 100,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 188,
+          "n": "Command_Timeout",
+          "v": 100,
+          "w": 100,
+          "rv": 0,
+          "rs": "0 0 0"
+        },
+        {
+          "id": 190,
+          "n": "Airflow_Temperature_Cel",
+          "v": 69,
+          "w": 44,
+          "t": 40,
+          "rv": 31,
+          "rs": "31 (Min/Max 24/32)"
+        },
+        {
+          "id": 192,
+          "n": "Power-Off_Retract_Count",
+          "v": 100,
+          "w": 100,
+          "rv": 32,
+          "rs": "32"
+        },
+        {
+          "id": 193,
+          "n": "Load_Cycle_Count",
+          "v": 99,
+          "w": 99,
+          "rv": 2391,
+          "rs": "2391"
+        },
+        {
+          "id": 194,
+          "n": "Temperature_Celsius",
+          "v": 31,
+          "w": 56,
+          "rv": 31,
+          "rs": "31 (0 20 0 0 0)"
+        },
+        {
+          "id": 197,
+          "n": "Current_Pending_Sector",
+          "v": 100,
+          "w": 100,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 198,
+          "n": "Offline_Uncorrectable",
+          "v": 100,
+          "w": 100,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 199,
+          "n": "UDMA_CRC_Error_Count",
+          "v": 200,
+          "w": 200,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 200,
+          "n": "Pressure_Limit",
+          "v": 100,
+          "w": 100,
+          "t": 1,
+          "rv": 0,
+          "rs": "0"
+        },
+        {
+          "id": 240,
+          "n": "Head_Flying_Hours",
+          "v": 100,
+          "w": 253,
+          "rv": 46213,
+          "rs": "46213h+20m+27.241s"
+        },
+        {
+          "id": 241,
+          "n": "Total_LBAs_Written",
+          "v": 100,
+          "w": 253,
+          "rv": 358991777409,
+          "rs": "358991777409"
+        },
+        {
+          "id": 242,
+          "n": "Total_LBAs_Read",
+          "v": 100,
+          "w": 253,
+          "rv": 792142902899,
+          "rs": "792142902899"
+        }
+      ],
+      "capacity": 12000138625024,
+      "collectionId": "pbc_2571630677",
+      "collectionName": "smart_devices",
+      "cycles": 379,
+      "firmware": "SB2D",
+      "hours": 46880,
+      "id": "efe6368e",
+      "model": "ST12000NM001G-2MV103",
+      "name": "/dev/sata1",
+      "serial": "<retiré>",
+      "state": "PASSED",
+      "system": "br2ryctgsfukr6r",
+      "temp": 31,
+      "type": "sat",
+      "updated": "2026-11-21 09:08:48.939Z"
+    }
+  ],
+  "page": 1,
+  "perPage": 500,
+  "totalItems": 4,
+  "totalPages": 1
+}

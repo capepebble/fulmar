@@ -1,0 +1,40 @@
+{
+  "op": "services.list",
+  "fetched_at": "2026-11-26T14:02:03.897866+00:00",
+  "cached": false,
+  "data": {
+    "smb": {
+      "enabled": true,
+      "min_protocol": "SMB2",
+      "max_protocol": "SMB3",
+      "ntlmv1": false
+    },
+    "afp_enabled": false,
+    "nfs_enabled": false,
+    "ftp": {
+      "enabled": false,
+      "ftps_enabled": false,
+      "port": 21
+    },
+    "sftp": {
+      "enabled": false,
+      "port": 22
+    },
+    "rsync": {
+      "enabled": false,
+      "rsync_accounts": false
+    },
+    "snmp": {
+      "enabled": false,
+      "v1v2c": false,
+      "v3": false,
+      "community_set": false
+    },
+    "web": {
+      "http_port": 5000,
+      "https_port": 5001,
+      "https_redirect": false,
+      "hsts": false
+    }
+  }
+}

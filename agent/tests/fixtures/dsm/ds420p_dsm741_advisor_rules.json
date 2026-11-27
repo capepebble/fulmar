@@ -1,0 +1,327 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1 ; Security Advisor en groupe « domestique », dossier « Compta été » et instantanés créés pour l'essai. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "isUpdating": false,
+ "items": {
+  "ruleDB.DirectoryService.LDAP.anonymousBindCheck": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.DirectoryService.LDAP.anonymousBindCheck",
+   "method": {},
+   "severity": "warning",
+   "status": "skip",
+   "strId": "rule_ldap_server_anonymous_bind",
+   "update": "1794206334"
+  },
+  "ruleDB.DirectoryService.LDAP.disable_admin": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.DirectoryService.LDAP.disable_admin",
+   "method": {},
+   "severity": "warning",
+   "status": "skip",
+   "strId": "rule_ldap_server_disable_admin",
+   "update": "1794206334"
+  },
+  "ruleDB.DirectoryService.LDAP.encryptionCheck": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.DirectoryService.LDAP.encryptionCheck",
+   "method": {},
+   "severity": "warning",
+   "status": "skip",
+   "strId": "rule_ldap_encryption",
+   "update": "1794206334"
+  },
+  "ruleDB.FileService.FTP.ftpAnonymousCheck": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.FileService.FTP.ftpAnonymousCheck",
+   "method": {},
+   "severity": "warning",
+   "status": "skip",
+   "strId": "rule_ftp_anonymous",
+   "update": "1794206334"
+  },
+  "ruleDB.FileService.Log.logFileCheck": {
+   "action": {},
+   "category": "malware",
+   "id": "ruleDB.FileService.Log.logFileCheck",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_log_file_check",
+   "update": "1794206334"
+  },
+  "ruleDB.Malware.Binary.binaryCheck": {
+   "action": {},
+   "category": "malware",
+   "id": "ruleDB.Malware.Binary.binaryCheck",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_malware_binary_check",
+   "update": "1794206334"
+  },
+  "ruleDB.Malware.Binary.lock3dCheck": {
+   "action": {},
+   "category": "malware",
+   "id": "ruleDB.Malware.Binary.lock3dCheck",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_malware_binary_check",
+   "update": "1794206334"
+  },
+  "ruleDB.Malware.Binary.optware": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.Malware.Binary.optware",
+   "method": {},
+   "severity": "warning",
+   "status": "pass",
+   "strId": "rule_optware_check_v2",
+   "update": "1794206334"
+  },
+  "ruleDB.Malware.Binary.ownerCheck": {
+   "action": {},
+   "category": "malware",
+   "id": "ruleDB.Malware.Binary.ownerCheck",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_malware_owner_check",
+   "update": "1794206334"
+  },
+  "ruleDB.Malware.Binary.xmrig": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.Malware.Binary.xmrig",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_xmrig_check",
+   "update": "1794206334"
+  },
+  "ruleDB.Malware.Profile.profileCheck": {
+   "action": {},
+   "category": "malware",
+   "id": "ruleDB.Malware.Profile.profileCheck",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_malware_profile_check_v2",
+   "update": "1794206334"
+  },
+  "ruleDB.Malware.Profile.rcFileCheck": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.Malware.Profile.rcFileCheck",
+   "method": {},
+   "severity": "warning",
+   "status": "pass",
+   "strId": "rule_rc_file_check",
+   "update": "1794206334"
+  },
+  "ruleDB.Packages.MailServer.SecureChannel": {
+   "action": {},
+   "category": "network",
+   "id": "ruleDB.Packages.MailServer.SecureChannel",
+   "method": {},
+   "severity": "warning",
+   "status": "skip",
+   "strId": "rule_mailserver_secure_channel",
+   "update": "1794206334"
+  },
+  "ruleDB.PublicAccess.PortForwarding.lanServicesExpose": {
+   "action": {},
+   "category": "network",
+   "id": "ruleDB.PublicAccess.PortForwarding.lanServicesExpose",
+   "method": {},
+   "severity": "warning",
+   "status": "pass",
+   "strId": "rule_lan_export",
+   "update": "1794206365"
+  },
+  "ruleDB.Security.AutoBlock.autoBlockEnableCheck": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.Security.AutoBlock.autoBlockEnableCheck",
+   "method": {},
+   "severity": "warning",
+   "status": "pass",
+   "strId": "rule_autoblock_enable",
+   "update": "1794206334"
+  },
+  "ruleDB.Security.Firewall.firewallDenyCheck": {
+   "action": {},
+   "category": "network",
+   "id": "ruleDB.Security.Firewall.firewallDenyCheck",
+   "method": {},
+   "severity": "info",
+   "status": "skip",
+   "strId": "rule_firewall_deny",
+   "update": "1794206334"
+  },
+  "ruleDB.SharedFolder.NFSPermissions.wildcardIpAllowCheck": {
+   "action": {},
+   "category": "systemCheck",
+   "id": "ruleDB.SharedFolder.NFSPermissions.wildcardIpAllowCheck",
+   "method": {},
+   "severity": "warning",
+   "status": "skip",
+   "strId": "rule_nfs_wildcard_ip",
+   "update": "1794206334"
+  },
+  "ruleDB.Terminal.SSH.sshPortCheck": {
+   "action": {
+    "actionKey": "action"
+   },
+   "category": "network",
+   "id": "ruleDB.Terminal.SSH.sshPortCheck",
+   "method": {
+    "methodAction": "link",
+    "methodActionVal": "SYNO.SDS.AdminCenter.Application:SYNO.SDS.AdminCenter.TerminalSNMP.Main"
+   },
+   "severity": "risk",
+   "status": "fail",
+   "strId": "rule_ssh_port",
+   "update": "1794206334"
+  },
+  "ruleDB.Terminal.Telnet.telnetEnableCheck": {
+   "action": {},
+   "category": "network",
+   "id": "ruleDB.Terminal.Telnet.telnetEnableCheck",
+   "method": {},
+   "severity": "risk",
+   "status": "pass",
+   "strId": "rule_telnet_enable",
+   "update": "1794206334"
+  },
+  "ruleDB.Update.DSM.check_latest_dsm": {
+   "action": {},
+   "category": "update",
+   "id": "ruleDB.Update.DSM.check_latest_dsm",
+   "method": {},
+   "severity": "outOfDate",
+   "status": "pass",
+   "strId": "rule_latest_dsm_v2",
+   "update": "1794206334"
+  },
+  "ruleDB.Update.DSM.enable_notification_v3": {
+   "action": {
+    "actionKey": "basic"
+   },
+   "category": "update",
+   "id": "ruleDB.Update.DSM.enable_notification_v3",
+   "method": {
+    "methodAction": "link",
+    "methodActionVal": "SYNO.SDS.AdminCenter.Application:SYNO.SDS.AdminCenter.Notification.Main:mailSettingTab"
+   },
+   "severity": "info",
+   "status": "fail",
+   "strId": "rule_notify_download_ready_v3",
+   "update": "1794206334"
+  },
+  "ruleDB.Update.Package.check_latest_pkg": {
+   "action": {},
+   "category": "update",
+   "id": "ruleDB.Update.Package.check_latest_pkg",
+   "method": {},
+   "severity": "outOfDate",
+   "status": "pass",
+   "strId": "rule_latest_pkg",
+   "update": "1794206339"
+  },
+  "ruleDB.Update.Package.package_check_disabled": {
+   "action": {},
+   "category": "update",
+   "id": "ruleDB.Update.Package.package_check_disabled",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_package_check_disabled",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Availability.check_dsm_username": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Availability.check_dsm_username",
+   "method": {},
+   "severity": "risk",
+   "status": "pass",
+   "strId": "rule_check_dsm_username",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Availability.disable_admin": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Availability.disable_admin",
+   "method": {},
+   "severity": "risk",
+   "status": "pass",
+   "strId": "rule_disable_admin",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Availability.user_account_disabled": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Availability.user_account_disabled",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_user_account_disabled",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Home.check_home_acl": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Home.check_home_acl",
+   "method": {},
+   "severity": "warning",
+   "status": "pass",
+   "strId": "rule_check_home_acl",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Password.check_password_strength_rule_home": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Password.check_password_strength_rule_home",
+   "method": {},
+   "severity": "warning",
+   "status": "pass",
+   "strId": "rule_check_password_strengh_rule_home",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Password.ldapPassCheck": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Password.ldapPassCheck",
+   "method": {},
+   "severity": "risk",
+   "status": "skip",
+   "strId": "rule_ldap_password_strength_v2",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Password.top50000StrengthCheck": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Password.top50000StrengthCheck",
+   "method": {},
+   "severity": "risk",
+   "status": "pass",
+   "strId": "rule_password_strength_v2",
+   "update": "1794206334"
+  },
+  "ruleDB.User.Shadow.check_shadow_integrity": {
+   "action": {},
+   "category": "userInfo",
+   "id": "ruleDB.User.Shadow.check_shadow_integrity",
+   "method": {},
+   "severity": "danger",
+   "status": "pass",
+   "strId": "rule_check_shadow_integrity",
+   "update": "1794206334"
+  }
+ },
+ "success": true
+}

@@ -1,0 +1,13 @@
+{
+  "op": "system.time",
+  "fetched_at": "2026-11-09T15:26:47.108967+00:00",
+  "cached": false,
+  "data": {
+    "time_zone": "Amsterdam",
+    "time_zone_label": "(GMT+01:00) Amsterdam, Berlin, Rome, Stockholm, Vienna",
+    "local_time": "2026-11-09T10:37:55",
+    "utc_offset_minutes": 60,
+    "ntp_enabled": true,
+    "ntp_server": "time.google.com"
+  }
+}

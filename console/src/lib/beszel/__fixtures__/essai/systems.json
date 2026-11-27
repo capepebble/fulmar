@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "collectionId": "2hz5ncl8tizk5nx",
+      "collectionName": "systems",
+      "created": "2026-11-20 12:49:35.332Z",
+      "host": "127.0.0.1",
+      "id": "br2ryctgsfukr6r",
+      "info": {
+        "t": 2,
+        "u": 268009,
+        "cpu": 1.06,
+        "mp": 43.71,
+        "dp": 0.02,
+        "v": "0.21.2",
+        "dt": 35,
+        "bb": 2051,
+        "la": [0.01, 0.1, 0.06],
+        "ct": 1
+      },
+      "name": "NAS d essai",
+      "port": "45876",
+      "status": "up",
+      "updated": "2026-11-21 09:08:48.379Z",
+      "users": ["u_console_essai", "u_console_essai"]
+    }
+  ],
+  "page": 1,
+  "perPage": 500,
+  "totalItems": 1,
+  "totalPages": 1
+}

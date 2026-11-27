@@ -1,0 +1,14 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales, dont « Essai en échec » dont la destination a été rendue non modifiable pendant la sauvegarde. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "offset": 1,
+ "repo_list": [
+  {
+   "name": "",
+   "repo_id": 1,
+   "share": "sauvegardes",
+   "target_type": "image",
+   "transfer_type": "image_local"
+  }
+ ],
+ "total": 1
+}

@@ -1,0 +1,13 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, un disque de 12 To en SHR sans protection, Container Manager avec cinq conteneurs (agent, moteur d'essai, Tailscale, Beszel). Réponse réelle du 2026-11-26, nettoyée par nas_agent.probe.scrub.",
+ "enable_nfs": false,
+ "enable_nfs_v4": false,
+ "enabled_minor_ver": 0,
+ "nfs_v4_domain": "",
+ "read_size": 8192,
+ "support_encrypt_share": 1,
+ "support_major_ver": 4,
+ "support_minor_ver": 1,
+ "unix_pri_enable": true,
+ "write_size": 8192
+}

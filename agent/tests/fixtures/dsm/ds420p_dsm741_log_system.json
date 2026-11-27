@@ -1,0 +1,537 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub ; comptes personnels remplacés par des pseudonymes.",
+ "errorCount": 3,
+ "infoCount": 63,
+ "items": [
+  {
+   "descr": "Scheduled Task [Share [essai] Snapshot] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/09 07:40:35",
+   "who": "SYSTEM_ADMIN"
+  },
+  {
+   "descr": "Recycle bin of shared folder [Compta été] was enabled.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/09 07:40:22",
+   "who": "SYSTEM_ADMIN"
+  },
+  {
+   "descr": "Normal shared folder [Compta été] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/09 07:40:21",
+   "who": "SYSTEM_ADMIN"
+  },
+  {
+   "descr": "Recycle bin of shared folder [sauvegardes] was disabled.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 16:07:49",
+   "who": "SYSTEM_ADMIN"
+  },
+  {
+   "descr": "Normal shared folder [sauvegardes] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 16:07:49",
+   "who": "SYSTEM_ADMIN"
+  },
+  {
+   "descr": "Recycle bin of shared folder [essai] was disabled.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 16:07:48",
+   "who": "SYSTEM_ADMIN"
+  },
+  {
+   "descr": "Normal shared folder [essai] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 16:07:48",
+   "who": "SYSTEM_ADMIN"
+  },
+  {
+   "descr": "Package [Container Manager] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 15:24:52",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully started [Container Manager].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 15:24:52",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Shared folder [docker] was created when enabling [ContainerManager].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 15:24:45",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Normal shared folder [docker] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 15:24:45",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Hyper Backup] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 15:24:26",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully started [Hyper Backup].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 15:24:26",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Password of the user [claude] was changed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 15:19:30",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "User home service enable, set user home to [/volume1].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:32:25",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "Normal shared folder [homes] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:32:24",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "Password of the user [claude] was changed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:31:36",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "System successfully started [SSH service].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:07:43",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "User [claude] was added to the group [administrators].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:06:52",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "User [claude] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:06:51",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "Package [Hybrid Share] has been successfully updated.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:06:05",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "System successfully started [Hybrid Share].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:06:05",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully stopped [Hybrid Share].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:06:00",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully created [Volume 1] on [Storage Pool 1].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:05:35",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "System successfully created [Storage Pool 1](Device Type is [SHR]) with drive [<redacted>: 1].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:05:35",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "System starts to create [Volume 1] on [Storage Pool 1].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:05:13",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "System starts to create [Storage Pool 1](Device Type is [SHR]) with drive [<redacted>: 1].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:05:11",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "Package [HyperBackup-ED] has been successfully uninstalled.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:25",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "Package [Active Backup for Business Agent (DSM)] has been successfully uninstalled.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:24",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "System successfully stopped [Active Backup for Business Agent (DSM)].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:23",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Time zone was changed to [(GMT+01:00) Amsterdam, Berlin, Rome, Stockholm, Vienna].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:21",
+   "who": "utilisateur"
+  },
+  {
+   "descr": "User [admin] was disabled.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:06",
+   "who": "admin"
+  },
+  {
+   "descr": "User [utilisateur] was added to the group [administrators].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:05",
+   "who": "admin"
+  },
+  {
+   "descr": "User [utilisateur] was created.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:05",
+   "who": "admin"
+  },
+  {
+   "descr": "Password of the user [admin] was changed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:04",
+   "who": "admin"
+  },
+  {
+   "descr": "Server name was changed from [SynologyNAS] to [<redacted>].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:04",
+   "who": "admin"
+  },
+  {
+   "descr": "Enabled auto block service.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 13:04:03",
+   "who": "admin"
+  },
+  {
+   "descr": "System successfully started [SynoAnalytics].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:57",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully stopped [SynoAnalytics].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:54",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [SMB Service] has been successfully updated.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:53",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully started [SMB Service].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:53",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully started [Windows file service, WS-Discovery service].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:52",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully stopped [Windows file service, Domain service, WS-Discovery service].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:50",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully stopped [SMB Service].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:49",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Failed to update package [Hybrid Share].",
+   "level": "err",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:46",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Active Insight] has been successfully updated.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:45",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully started [Active Insight].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:45",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully stopped [Active Insight].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:58:32",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Universal Search] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:51",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [OAuth Service] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:47",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Hybrid Share] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:45",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [File Station] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:44",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Failed to update package [Synology Online Disk Database Upload Pack].",
+   "level": "err",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:32",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Storage Manager] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:30",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Secure SignIn Service] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:29",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [SAN Manager] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:27",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [SMB Service] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:25",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System successfully started [WS-Discovery service, Windows file service].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:25",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [QuickConnect] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:21",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Python2] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:19",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Active Backup for Business Agent (DSM)] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:17",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "Package [Active Insight] has been successfully installed.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:16",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System failed to start [Synology Online Disk Database Upload Pack].",
+   "level": "err",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:14",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "[eth0] was set to [DHCP].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:57:00",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "IP address [192.0.2.1] and subnet mask [255.255.0.0] were assigned to the DHCP client on [LAN 2].",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:56:53",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "System started to boot up.",
+   "level": "info",
+   "logtype": "System",
+   "orginalLogType": "system",
+   "time": "2026/11/06 12:56:45",
+   "who": "SYSTEM"
+  }
+ ],
+ "total": 66,
+ "warnCount": 0
+}

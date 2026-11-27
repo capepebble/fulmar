@@ -1,0 +1,81 @@
+{
+  "op": "containers.list",
+  "fetched_at": "2026-11-26T14:02:02.252955+00:00",
+  "cached": false,
+  "data": {
+    "summary": {
+      "total": 5,
+      "running": 5,
+      "stopped": 0,
+      "restarting": 0,
+      "unhealthy": 0
+    },
+    "containers": [
+      {
+        "name": "beszel-agent",
+        "image": "henrygd/beszel-agent:0.21.2-alpine",
+        "project": "beszel-agent",
+        "state": "running",
+        "exit_code": 0,
+        "oom_killed": false,
+        "health": null,
+        "started_at": "2026-11-24T19:22:45Z",
+        "cpu_pct": 0.0,
+        "memory_bytes": 18841600,
+        "memory_pct": 1.0
+      },
+      {
+        "name": "nas-agent",
+        "image": "nas-agent:0.1.0",
+        "project": "nas-agent",
+        "state": "running",
+        "exit_code": 0,
+        "oom_killed": false,
+        "health": null,
+        "started_at": "2026-11-25T12:53:03Z",
+        "cpu_pct": 0.15,
+        "memory_bytes": 105816064,
+        "memory_pct": 5.8
+      },
+      {
+        "name": "nas-agent-tailscale",
+        "image": "tailscale/tailscale:stable",
+        "project": "nas-agent",
+        "state": "running",
+        "exit_code": 0,
+        "oom_killed": false,
+        "health": null,
+        "started_at": "2026-11-24T19:22:42Z",
+        "cpu_pct": 0.0,
+        "memory_bytes": 33792000,
+        "memory_pct": 1.8
+      },
+      {
+        "name": "nas-moteur-essai-agent-1",
+        "image": "ghcr.io/capepebble/nas-agent:essai",
+        "project": "nas-moteur-essai",
+        "state": "running",
+        "exit_code": 0,
+        "oom_killed": false,
+        "health": null,
+        "started_at": "2026-11-26T09:23:08Z",
+        "cpu_pct": 0.15,
+        "memory_bytes": 122552320,
+        "memory_pct": 6.7
+      },
+      {
+        "name": "nas-moteur-essai-console-1",
+        "image": "ghcr.io/capepebble/nas-console:essai",
+        "project": "nas-moteur-essai",
+        "state": "running",
+        "exit_code": 0,
+        "oom_killed": false,
+        "health": null,
+        "started_at": "2026-11-26T09:23:10Z",
+        "cpu_pct": 0.0,
+        "memory_bytes": 119070720,
+        "memory_pct": 6.5
+      }
+    ]
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "op": "logs.recent",
+  "fetched_at": "2026-11-09T15:26:47.747812+00:00",
+  "cached": false,
+  "data": {
+    "kind": "connection",
+    "total": 66,
+    "counts": { "info": 63, "warning": 0, "error": 3 },
+    "entries": [
+      {
+        "time": "2026-11-09T07:40:35",
+        "level": "info",
+        "account": "SYSTEM_ADMIN",
+        "event": "Scheduled Task [Share [essai] Snapshot] was created."
+      },
+      {
+        "time": "2026-11-09T07:40:22",
+        "level": "info",
+        "account": "SYSTEM_ADMIN",
+        "event": "Recycle bin of shared folder [Compta été] was enabled."
+      },
+      {
+        "time": "2026-11-09T07:40:21",
+        "level": "info",
+        "account": "SYSTEM_ADMIN",
+        "event": "Normal shared folder [Compta été] was created."
+      },
+      {
+        "time": "2026-11-06T16:07:49",
+        "level": "info",
+        "account": "SYSTEM_ADMIN",
+        "event": "Recycle bin of shared folder [sauvegardes] was disabled."
+      },
+      {
+        "time": "2026-11-06T16:07:49",
+        "level": "info",
+        "account": "SYSTEM_ADMIN",
+        "event": "Normal shared folder [sauvegardes] was created."
+      },
+      {
+        "time": "2026-11-06T16:07:48",
+        "level": "info",
+        "account": "SYSTEM_ADMIN",
+        "event": "Recycle bin of shared folder [essai] was disabled."
+      },
+      {
+        "time": "2026-11-06T16:07:48",
+        "level": "info",
+        "account": "SYSTEM_ADMIN",
+        "event": "Normal shared folder [essai] was created."
+      },
+      {
+        "time": "2026-11-06T15:24:52",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Container Manager] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T15:24:52",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [Container Manager]."
+      },
+      {
+        "time": "2026-11-06T15:24:45",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Shared folder [docker] was created when enabling [ContainerManager]."
+      },
+      {
+        "time": "2026-11-06T15:24:45",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Normal shared folder [docker] was created."
+      },
+      {
+        "time": "2026-11-06T15:24:26",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Hyper Backup] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T15:24:26",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [Hyper Backup]."
+      },
+      {
+        "time": "2026-11-06T15:19:30",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "Password of the user [claude] was changed."
+      },
+      {
+        "time": "2026-11-06T13:32:25",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "User home service enable, set user home to [/volume1]."
+      },
+      {
+        "time": "2026-11-06T13:32:24",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "Normal shared folder [homes] was created."
+      },
+      {
+        "time": "2026-11-06T13:31:36",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "Password of the user [claude] was changed."
+      },
+      {
+        "time": "2026-11-06T13:07:43",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [SSH service]."
+      },
+      {
+        "time": "2026-11-06T13:06:52",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "User [claude] was added to the group [administrators]."
+      },
+      {
+        "time": "2026-11-06T13:06:51",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "User [claude] was created."
+      },
+      {
+        "time": "2026-11-06T13:06:05",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "Package [Hybrid Share] has been successfully updated."
+      },
+      {
+        "time": "2026-11-06T13:06:05",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [Hybrid Share]."
+      },
+      {
+        "time": "2026-11-06T13:06:00",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully stopped [Hybrid Share]."
+      },
+      {
+        "time": "2026-11-06T13:05:35",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "System successfully created [Volume 1] on [Storage Pool 1]."
+      },
+      {
+        "time": "2026-11-06T13:05:35",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "System successfully created [Storage Pool 1](Device Type is [SHR]) with drive [<redacted>: 1]."
+      },
+      {
+        "time": "2026-11-06T13:05:13",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "System starts to create [Volume 1] on [Storage Pool 1]."
+      },
+      {
+        "time": "2026-11-06T13:05:11",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "System starts to create [Storage Pool 1](Device Type is [SHR]) with drive [<redacted>: 1]."
+      },
+      {
+        "time": "2026-11-06T13:04:25",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "Package [HyperBackup-ED] has been successfully uninstalled."
+      },
+      {
+        "time": "2026-11-06T13:04:24",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "Package [Active Backup for Business Agent (DSM)] has been successfully uninstalled."
+      },
+      {
+        "time": "2026-11-06T13:04:23",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully stopped [Active Backup for Business Agent (DSM)]."
+      },
+      {
+        "time": "2026-11-06T13:04:21",
+        "level": "info",
+        "account": "utilisateur",
+        "event": "Time zone was changed to [(GMT+01:00) Amsterdam, Berlin, Rome, Stockholm, Vienna]."
+      },
+      {
+        "time": "2026-11-06T13:04:06",
+        "level": "info",
+        "account": "admin",
+        "event": "User [admin] was disabled."
+      },
+      {
+        "time": "2026-11-06T13:04:05",
+        "level": "info",
+        "account": "admin",
+        "event": "User [utilisateur] was added to the group [administrators]."
+      },
+      {
+        "time": "2026-11-06T13:04:05",
+        "level": "info",
+        "account": "admin",
+        "event": "User [utilisateur] was created."
+      },
+      {
+        "time": "2026-11-06T13:04:04",
+        "level": "info",
+        "account": "admin",
+        "event": "Password of the user [admin] was changed."
+      },
+      {
+        "time": "2026-11-06T13:04:04",
+        "level": "info",
+        "account": "admin",
+        "event": "Server name was changed from [SynologyNAS] to [<redacted>]."
+      },
+      {
+        "time": "2026-11-06T13:04:03",
+        "level": "info",
+        "account": "admin",
+        "event": "Enabled auto block service."
+      },
+      {
+        "time": "2026-11-06T12:58:57",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [SynoAnalytics]."
+      },
+      {
+        "time": "2026-11-06T12:58:54",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully stopped [SynoAnalytics]."
+      },
+      {
+        "time": "2026-11-06T12:58:53",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [SMB Service] has been successfully updated."
+      },
+      {
+        "time": "2026-11-06T12:58:53",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [SMB Service]."
+      },
+      {
+        "time": "2026-11-06T12:58:52",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [Windows file service, WS-Discovery service]."
+      },
+      {
+        "time": "2026-11-06T12:58:50",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully stopped [Windows file service, Domain service, WS-Discovery service]."
+      },
+      {
+        "time": "2026-11-06T12:58:49",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully stopped [SMB Service]."
+      },
+      {
+        "time": "2026-11-06T12:58:46",
+        "level": "error",
+        "account": "SYSTEM",
+        "event": "Failed to update package [Hybrid Share]."
+      },
+      {
+        "time": "2026-11-06T12:58:45",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Active Insight] has been successfully updated."
+      },
+      {
+        "time": "2026-11-06T12:58:45",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [Active Insight]."
+      },
+      {
+        "time": "2026-11-06T12:58:32",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully stopped [Active Insight]."
+      },
+      {
+        "time": "2026-11-06T12:57:51",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Universal Search] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:47",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [OAuth Service] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:45",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Hybrid Share] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:44",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [File Station] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:32",
+        "level": "error",
+        "account": "SYSTEM",
+        "event": "Failed to update package [Synology Online Disk Database Upload Pack]."
+      },
+      {
+        "time": "2026-11-06T12:57:30",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Storage Manager] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:29",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Secure SignIn Service] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:27",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [SAN Manager] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:25",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [SMB Service] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:25",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System successfully started [WS-Discovery service, Windows file service]."
+      },
+      {
+        "time": "2026-11-06T12:57:21",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [QuickConnect] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:19",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Python2] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:17",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Active Backup for Business Agent (DSM)] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:16",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "Package [Active Insight] has been successfully installed."
+      },
+      {
+        "time": "2026-11-06T12:57:14",
+        "level": "error",
+        "account": "SYSTEM",
+        "event": "System failed to start [Synology Online Disk Database Upload Pack]."
+      },
+      {
+        "time": "2026-11-06T12:57:00",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "[eth0] was set to [DHCP]."
+      },
+      {
+        "time": "2026-11-06T12:56:53",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "IP address [192.0.2.1] and subnet mask [255.255.0.0] were assigned to the DHCP client on [LAN 2]."
+      },
+      {
+        "time": "2026-11-06T12:56:45",
+        "level": "info",
+        "account": "SYSTEM",
+        "event": "System started to boot up."
+      }
+    ]
+  }
+}

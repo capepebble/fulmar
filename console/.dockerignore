@@ -1,0 +1,9 @@
+# Sources de l'image : rien de local, rien de secret.
+node_modules
+.next
+data
+.env
+.env.*
+.impeccable
+tsconfig.tsbuildinfo
+*.log

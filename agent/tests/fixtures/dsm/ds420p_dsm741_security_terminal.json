@@ -1,0 +1,253 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, à jour, paquets d'origine plus Hyper Backup et Container Manager. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "enable_ssh": true,
+ "enable_telnet": false,
+ "forbid_console": false,
+ "ssh_cipher": [
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "3des-cbc",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "aes128-cbc",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "aes128-ctr",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "aes192-cbc",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "aes192-ctr",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "aes256-cbc",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "aes256-ctr",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "someone@example.org",
+   "security_level": 0
+  }
+ ],
+ "ssh_kex": [
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "curve25519-sha256",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "diffie-hellman-group-exchange-sha1",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "diffie-hellman-group-exchange-sha256",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "diffie-hellman-group1-sha1",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "diffie-hellman-group14-sha1",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "diffie-hellman-group14-sha256",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "diffie-hellman-group16-sha512",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "diffie-hellman-group18-sha512",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "ecdh-sha2-nistp256",
+   "security_level": 1
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "ecdh-sha2-nistp384",
+   "security_level": 1
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "ecdh-sha2-nistp521",
+   "security_level": 1
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "someone@example.org",
+   "security_level": 0
+  }
+ ],
+ "ssh_mac": [
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "hmac-md5",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "hmac-md5-96",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "someone@example.org",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "someone@example.org",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "hmac-sha1",
+   "security_level": 1
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "hmac-sha1-96",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": false,
+   "name": "someone@example.org",
+   "security_level": 0
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 1
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "hmac-sha2-256",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "hmac-sha2-512",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 2
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 1
+  },
+  {
+   "hardware_support": false,
+   "in_use": true,
+   "name": "someone@example.org",
+   "security_level": 1
+  }
+ ],
+ "ssh_port": 22
+}

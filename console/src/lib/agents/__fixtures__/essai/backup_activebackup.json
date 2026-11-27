@@ -1,0 +1,16 @@
+{
+  "op": "backup.activebackup",
+  "fetched_at": "2026-11-26T16:51:22.441945+00:00",
+  "cached": false,
+  "data": {
+    "activated": false,
+    "summary": {
+      "tasks_total": 0,
+      "devices_total": 0,
+      "tasks_running": 0,
+      "tasks_failed": 0
+    },
+    "storages": [],
+    "tasks": []
+  }
+}

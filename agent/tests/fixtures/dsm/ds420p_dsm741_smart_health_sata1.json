@@ -1,0 +1,595 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, un disque de 12 To en SHR sans protection, Container Manager avec cinq conteneurs (agent, moteur d'essai, Tailscale, Beszel). Réponse réelle du 2026-11-26, nettoyée par nas_agent.probe.scrub.",
+ "healthInfo": {
+  "count": 22,
+  "history": {
+   "incremental": {
+    "idnf": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11,
+      0
+     ]
+    ],
+    "offset": 11,
+    "remainLife": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11,
+      -1
+     ]
+    ],
+    "retry": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11,
+      0
+     ]
+    ],
+    "unc": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11,
+      0
+     ]
+    ]
+   },
+   "single": {
+    "idnf": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11
+     ]
+    ],
+    "offset": 11,
+    "remainLife": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11
+     ]
+    ],
+    "retry": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11
+     ]
+    ],
+    "unc": [
+     [
+      0
+     ],
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ],
+     [
+      4
+     ],
+     [
+      5
+     ],
+     [
+      6
+     ],
+     [
+      7
+     ],
+     [
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10
+     ],
+     [
+      11
+     ]
+    ]
+   }
+  },
+  "overview": {
+   "adv_key": "",
+   "adv_modifiable": false,
+   "adv_modified": false,
+   "adv_progress": "",
+   "adv_scheduled": false,
+   "adv_section": "",
+   "adv_status": "not_support",
+   "adv_test_code": "",
+   "allocation_role": "reuse_1",
+   "below_remain_life_mail_notify_thr": false,
+   "below_remain_life_show_thr": false,
+   "below_remain_life_thr": false,
+   "compatibility": "support",
+   "disk_code": "",
+   "drive_status_category": "health",
+   "drive_status_key": "normal",
+   "idnf": 0,
+   "ihm_schedule_list": [],
+   "io_err_info": {
+    "sector": 0,
+    "time": 0,
+    "type": ""
+   },
+   "isNVMeDisk": false,
+   "isSataDisk": true,
+   "isSsd": false,
+   "isSynoDrive": false,
+   "is_bundle_ssd": false,
+   "is_raid_error_disk": false,
+   "low_performance_in_raid": "normal",
+   "low_performance_in_raid_disk_list": "",
+   "overview_status": "normal",
+   "overview_weight": 0,
+   "poweron": "46982",
+   "read_only": false,
+   "remain_life": {
+    "trustable": true,
+    "value": -1
+   },
+   "remain_life_attr": "",
+   "remain_life_danger": false,
+   "remain_life_disable": 0,
+   "remain_life_suppress": 0,
+   "retry": 0,
+   "sb_days_left": 0,
+   "sb_days_left_below_show_thres": false,
+   "sb_days_left_critical": false,
+   "sb_days_left_warning": false,
+   "scheduled": false,
+   "seq_status": "normal",
+   "smart": "normal",
+   "smartInfo_support": true,
+   "smart_disable": 0,
+   "smart_fail": [],
+   "smart_fail_critical": false,
+   "smart_fail_past": false,
+   "smart_fail_repeat": false,
+   "smart_info": "normal",
+   "smart_progress": "",
+   "smart_schedule_list": [],
+   "smart_suppress": 0,
+   "smart_test": "normal",
+   "smart_test_disable": 0,
+   "smart_test_limit": 0,
+   "smart_test_suppress": 0,
+   "ssd_bad_block_over_thr": false,
+   "unc": 0,
+   "wdda_disable": 0,
+   "wdda_modifiable": false,
+   "wdda_status": "not_support",
+   "wdda_suppress": 0
+  },
+  "smartInfo": [
+   {
+    "current": "071",
+    "id": "1",
+    "name": "Raw_Read_Error_Rate",
+    "raw": "0/13208345",
+    "status": "OK",
+    "threshold": "044",
+    "worst": "064"
+   },
+   {
+    "current": "092",
+    "id": "3",
+    "name": "Spin_Up_Time",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "091"
+   },
+   {
+    "current": "100",
+    "id": "4",
+    "name": "Start_Stop_Count",
+    "raw": "596",
+    "status": "OK",
+    "threshold": "020",
+    "worst": "100"
+   },
+   {
+    "current": "100",
+    "id": "5",
+    "name": "Reallocated_Sector_Ct",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "010",
+    "worst": "100"
+   },
+   {
+    "current": "088",
+    "id": "7",
+    "name": "Seek_Error_Rate",
+    "raw": "0/635427945",
+    "status": "OK",
+    "threshold": "045",
+    "worst": "060"
+   },
+   {
+    "current": "047",
+    "id": "9",
+    "name": "Power_On_Hours",
+    "raw": "46982",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "047"
+   },
+   {
+    "current": "100",
+    "id": "10",
+    "name": "Spin_Retry_Count",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "097",
+    "worst": "100"
+   },
+   {
+    "current": "100",
+    "id": "12",
+    "name": "Power_Cycle_Count",
+    "raw": "442",
+    "status": "OK",
+    "threshold": "020",
+    "worst": "100"
+   },
+   {
+    "current": "100",
+    "id": "18",
+    "name": "Head_Health",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "050",
+    "worst": "100"
+   },
+   {
+    "current": "100",
+    "id": "187",
+    "name": "Reported_Uncorrect",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "100"
+   },
+   {
+    "current": "100",
+    "id": "188",
+    "name": "Command_Timeout",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "100"
+   },
+   {
+    "current": "068",
+    "id": "190",
+    "name": "Airflow_Temperature_Cel",
+    "raw": "32",
+    "status": "OK",
+    "threshold": "040",
+    "worst": "044"
+   },
+   {
+    "current": "100",
+    "id": "192",
+    "name": "Power-Off_Retract_Count",
+    "raw": "32",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "100"
+   },
+   {
+    "current": "099",
+    "id": "193",
+    "name": "Load_Cycle_Count",
+    "raw": "2460",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "099"
+   },
+   {
+    "current": "032",
+    "id": "194",
+    "name": "Temperature_Celsius",
+    "raw": "32",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "056"
+   },
+   {
+    "current": "100",
+    "id": "197",
+    "name": "Current_Pending_Sector",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "100"
+   },
+   {
+    "current": "100",
+    "id": "198",
+    "name": "Offline_Uncorrectable",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "100"
+   },
+   {
+    "current": "200",
+    "id": "199",
+    "name": "UDMA_CRC_Error_Count",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "200"
+   },
+   {
+    "current": "100",
+    "id": "200",
+    "name": "Pressure_Limit",
+    "raw": "0",
+    "status": "OK",
+    "threshold": "001",
+    "worst": "100"
+   },
+   {
+    "current": "100",
+    "id": "240",
+    "name": "Head_Flying_Hours",
+    "raw": "46314h+27m+31.161s",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "253"
+   },
+   {
+    "current": "100",
+    "id": "241",
+    "name": "Total_LBAs_Written",
+    "raw": "359026316283",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "253"
+   },
+   {
+    "current": "100",
+    "id": "242",
+    "name": "Total_LBAs_Read",
+    "raw": "792156668190",
+    "status": "OK",
+    "threshold": "000",
+    "worst": "253"
+   }
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales : « Essai local » planifiée chaque jour à 3 h, contrôle d'intégrité planifié le dimanche à 4 h et lancé le 2026-11-09 à 10 h 35 ; « Essai en échec » sans planning. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "capability": {
+  "support_download": true,
+  "support_filter": true,
+  "support_statistics": true
+ },
+ "data_comp": true,
+ "data_enc": false,
+ "format_type": "image",
+ "host_name": "<host_name>",
+ "last_detect_time": "",
+ "owner_id": 3,
+ "owner_name": "<owner_name>",
+ "support_multi_version": true,
+ "uni_key": "<uni_key>"
+}

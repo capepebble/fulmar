@@ -1,0 +1,42 @@
+{
+ "items": [
+  {
+   "can_be_kicked": true,
+   "descr": "DiskStation Manager",
+   "did": "<did>",
+   "first_login_time": "2026/11/09 07:43:23",
+   "from": "192.0.2.1",
+   "is_amfa": false,
+   "is_current_connected": false,
+   "is_otp_trusted": false,
+   "location": "",
+   "pid": 1,
+   "protocol": "HTTP/HTTPS",
+   "time": "2026/11/09 07:43:23",
+   "type": "HTTP/HTTPS",
+   "user_agent": "",
+   "user_can_be_disabled": true,
+   "who": "claude"
+  },
+  {
+   "can_be_kicked": true,
+   "descr": "DiskStation Manager",
+   "did": "<did>",
+   "first_login_time": "2026/11/06 15:49:04",
+   "from": "192.0.2.1",
+   "is_amfa": false,
+   "is_current_connected": false,
+   "is_otp_trusted": false,
+   "location": "",
+   "pid": 1,
+   "protocol": "HTTP/HTTPS",
+   "time": "2026/11/06 15:49:04",
+   "type": "HTTP/HTTPS",
+   "user_agent": "",
+   "user_can_be_disabled": true,
+   "who": "utilisateur"
+  }
+ ],
+ "systime": "Mon Nov  9 07:43:30 2026\n",
+ "total": 2
+}

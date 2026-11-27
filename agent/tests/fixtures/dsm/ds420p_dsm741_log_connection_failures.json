@@ -1,0 +1,73 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2. Extrait de la réponse réelle du 2026-11-26 (journal des connexions, 826 lignes) : ses trois échecs, du 6 novembre, et cinq réussites ; nettoyé par nas_agent.probe.scrub.",
+ "items": [
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/26 14:48:48",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/26 14:48:37",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/26 14:48:24",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] signed in to [DSM] successfully via [password].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/26 14:48:13",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] logged in successfully via [SSH].",
+   "level": "info",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/26 14:28:08",
+   "who": "claude"
+  },
+  {
+   "descr": "User [claude] from [192.0.2.1] failed to log in via [SSH] due to authorization failure.",
+   "level": "warn",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 15:18:56",
+   "who": "claude"
+  },
+  {
+   "descr": "User [] from [192.0.2.1] failed to sign in to [DSM] via [password] due to authorization failure.",
+   "level": "warn",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:34:03",
+   "who": "SYSTEM"
+  },
+  {
+   "descr": "User [nas-agent-sonde] from [192.0.2.1] failed to sign in to [DSM] via [password] due to authorization failure.",
+   "level": "warn",
+   "logtype": "Connection",
+   "orginalLogType": "connection",
+   "time": "2026/11/06 13:10:50",
+   "who": "nas-agent-sonde"
+  }
+ ],
+ "total": 8,
+ "errorCount": 0,
+ "warnCount": 3,
+ "infoCount": 5
+}

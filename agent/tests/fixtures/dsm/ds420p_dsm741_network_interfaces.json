@@ -1,0 +1,32 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1 ; Security Advisor en groupe « domestique », dossier « Compta été » et instantanés créés pour l'essai. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "items": [
+  {
+   "ifname": "eth0",
+   "ip": "192.0.2.1",
+   "mask": "255.255.255.0",
+   "speed": 1000,
+   "status": "connected",
+   "type": "lan",
+   "use_dhcp": true
+  },
+  {
+   "ifname": "eth1",
+   "ip": "192.0.2.1",
+   "mask": "255.255.0.0",
+   "speed": -1,
+   "status": "disconnected",
+   "type": "lan",
+   "use_dhcp": true
+  },
+  {
+   "ifname": "pppoe",
+   "ip": "",
+   "mask": "",
+   "speed": 0,
+   "status": "disconnected",
+   "type": "pppoe",
+   "use_dhcp": true
+  }
+ ]
+}

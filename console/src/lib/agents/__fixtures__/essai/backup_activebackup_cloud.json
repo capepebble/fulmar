@@ -1,0 +1,15 @@
+{
+  "op": "backup.activebackup_cloud",
+  "fetched_at": "2026-11-26T17:25:13.342637+00:00",
+  "cached": false,
+  "data": {
+    "microsoft365": {
+      "activated": false,
+      "tasks": []
+    },
+    "google_workspace": {
+      "activated": false,
+      "tasks": []
+    }
+  }
+}

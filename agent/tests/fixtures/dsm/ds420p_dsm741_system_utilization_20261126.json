@@ -1,0 +1,94 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2, un disque de 12 To en SHR sans protection, Container Manager avec cinq conteneurs (agent, moteur d'essai, Tailscale, Beszel). Réponse réelle du 2026-11-26, nettoyée par nas_agent.probe.scrub.",
+ "cpu": {
+  "15min_load": 3,
+  "1min_load": 19,
+  "5min_load": 9,
+  "device": "System",
+  "other_load": 4,
+  "system_load": 0,
+  "user_load": 0
+ },
+ "disk": {
+  "disk": [
+   {
+    "device": "sata1",
+    "display_name": "Drive 1",
+    "read_access": 0,
+    "read_byte": 0,
+    "type": "internal",
+    "utilization": 5,
+    "write_access": 8,
+    "write_byte": 146790
+   }
+  ],
+  "total": {
+   "device": "total",
+   "read_access": 0,
+   "read_byte": 0,
+   "utilization": 5,
+   "write_access": 8,
+   "write_byte": 146790
+  }
+ },
+ "lun": [],
+ "memory": {
+  "avail_real": 155820,
+  "avail_swap": 3097544,
+  "buffer": 16672,
+  "cached": 978916,
+  "device": "Memory",
+  "memory_size": 2097152,
+  "real_usage": 35,
+  "si_disk": 0,
+  "so_disk": 0,
+  "swap_usage": 2,
+  "total_real": 1795352,
+  "total_swap": 3174324
+ },
+ "network": [
+  {
+   "device": "total",
+   "rx": 2666,
+   "tx": 10983
+  },
+  {
+   "device": "eth0",
+   "rx": 2666,
+   "tx": 10983
+  },
+  {
+   "device": "eth1",
+   "rx": 0,
+   "tx": 0
+  }
+ ],
+ "nfs": [],
+ "smb": {
+  "smb_cmd": [],
+  "smb_cpu": [],
+  "smb_rwpkt": []
+ },
+ "space": {
+  "total": {
+   "device": "total",
+   "read_access": 0,
+   "read_byte": 0,
+   "utilization": 4,
+   "write_access": 6,
+   "write_byte": 127385
+  },
+  "volume": [
+   {
+    "device": "dm-1",
+    "display_name": "volume1",
+    "read_access": 0,
+    "read_byte": 0,
+    "utilization": 4,
+    "write_access": 6,
+    "write_byte": 127385
+   }
+  ]
+ },
+ "time": 1795699100
+}

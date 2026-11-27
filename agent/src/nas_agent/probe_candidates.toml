@@ -1,0 +1,516 @@
+# Appels candidats pour la sonde de découverte (lecture seule), tirés de la carte de N4S4.
+# La sonde refuse toute méthode qui n'est pas une lecture (voir probe.is_read_only).
+# `max_version` absent : la plus haute version annoncée par le NAS.
+
+[[call]]
+api = "SYNO.DSM.Info"
+method = "getinfo"
+
+[[call]]
+api = "SYNO.Core.System"
+method = "info"
+
+[[call]]
+api = "SYNO.Core.System.Status"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.System.SystemHealth"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.System.Utilization"
+method = "get"
+
+[[call]]
+api = "SYNO.Storage.CGI.Storage"
+method = "load_info"
+
+[[call]]
+api = "SYNO.Core.Share"
+method = "list"
+params = { additional = '["encryption","recyclebin","share_quota","hidden","is_aclmode"]' }
+
+# Instantanés : version 2, dossier par dossier, sans les instantanés cachés, comme l'interface.
+[[call]]
+api = "SYNO.Core.Share.Snapshot"
+method = "list"
+max_version = 2
+params = { offset = 0, limit = -1, filter = '{"attr":["!hide==true"]}', additional = '["desc","lock","schedule_snapshot"]' }
+each = { from = "SYNO.Core.Share.list", items = "shares", key = "name" }
+
+[[call]]
+api = "SYNO.Core.Share.Snapshot"
+method = "get_schedule"
+max_version = 1
+each = { from = "SYNO.Core.Share.list", items = "shares", key = "name" }
+
+# Hyper Backup : l'interface du paquet appelle SYNO.Backup.Task en version 1.
+[[call]]
+api = "SYNO.Backup.Task"
+method = "list"
+max_version = 1
+params = { sort_by = "name", additional = '["last_bkp_time","next_bkp_time","last_bkp_result","is_modified","last_bkp_progress","get_source"]' }
+
+[[call]]
+api = "SYNO.Backup.Task"
+method = "status"
+max_version = 1
+params = { blOnline = "false", additional = '["last_bkp_time","next_bkp_time","last_bkp_result","is_modified","last_bkp_progress"]' }
+each = { from = "SYNO.Backup.Task.list", items = "task_list", key = "task_id" }
+
+[[call]]
+api = "SYNO.Backup.Task"
+method = "get"
+max_version = 1
+each = { from = "SYNO.Backup.Task.list", items = "task_list", key = "task_id" }
+
+[[call]]
+api = "SYNO.Backup.Repository"
+method = "list"
+max_version = 1
+
+[[call]]
+api = "SYNO.SDS.Backup.Client.Common.Log"
+method = "list"
+params = { offset = 0, limit = 50 }
+
+[[call]]
+api = "SYNO.Backup.Version"
+method = "list"
+max_version = 2
+params = { sort_direction = "desc", filter_name = "success" }
+each = { from = "SYNO.Backup.Task.list", items = "task_list", key = "task_id" }
+
+# Container Manager
+[[call]]
+api = "SYNO.Docker.Container"
+method = "list"
+params = { offset = 0, limit = -1, type = "all" }
+
+[[call]]
+api = "SYNO.Docker.Container.Resource"
+method = "get"
+
+[[call]]
+api = "SYNO.Docker.Project"
+method = "list"
+
+[[call]]
+api = "SYNO.Docker.Image"
+method = "list"
+params = { offset = 0, limit = -1 }
+
+[[call]]
+api = "SYNO.Docker.Network"
+method = "list"
+
+# Paquets et mises à jour : versions et paramètres du Centre de paquets et de « Mise à jour ».
+[[call]]
+api = "SYNO.Core.Package"
+method = "list"
+max_version = 2
+params = { additional = '["status","autoupdate","silent_upgrade","install_type","updated_at"]' }
+
+[[call]]
+api = "SYNO.Core.Package.Server"
+method = "list"
+max_version = 2
+params = { blforcereload = "false", blloadothers = "false" }
+
+[[call]]
+api = "SYNO.Core.Package.Setting"
+method = "get"
+max_version = 1
+
+# Sans `user_reading` : l'agent ne marque pas la mise à jour comme vue.
+[[call]]
+api = "SYNO.Core.Upgrade.Server"
+method = "check"
+max_version = 3
+params = { need_auto_smallupdate = "true", need_promotion = "true" }
+
+[[call]]
+api = "SYNO.Core.Upgrade"
+method = "status"
+
+[[call]]
+api = "SYNO.Core.Upgrade.Setting"
+method = "get"
+max_version = 4
+
+[[call]]
+api = "SYNO.Core.Upgrade.AutoUpgrade.Security"
+method = "get"
+max_version = 1
+
+# Sécurité
+[[call]]
+api = "SYNO.Core.Security.Firewall"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.Security.Firewall.Conf"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.Security.AutoBlock"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.Security.DSM"
+method = "get"
+max_version = 6
+
+[[call]]
+api = "SYNO.Core.SmartBlock"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.OTP.EnforcePolicy"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.Terminal"
+method = "get"
+max_version = 3
+
+# QuickConnect : pas de `get` en version 3.
+[[call]]
+api = "SYNO.Core.QuickConnect"
+method = "get"
+max_version = 2
+
+[[call]]
+api = "SYNO.Core.QuickConnect"
+method = "status"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Certificate.CRT"
+method = "list"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.SecurityScan.Status"
+method = "system_get"
+
+[[call]]
+api = "SYNO.Core.SecurityScan.Status"
+method = "rule_get"
+params = { items = "ALL" }
+
+# Erreur 117 tant qu'aucun rapport n'a été produit (NAS neuf).
+[[call]]
+api = "SYNO.SecurityAdvisor.Report"
+method = "list"
+
+[[call]]
+api = "SYNO.SecurityAdvisor.Conf"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.SecurityScan.Conf"
+method = "get"
+
+# L'interface passe le groupe de règles par défaut (`defaultGroup` de SYNO.Core.SecurityScan.Conf).
+[[call]]
+api = "SYNO.SecurityAdvisor.Conf.Checklist"
+method = "list"
+params = { group = "home" }
+
+[[call]]
+api = "SYNO.SecurityAdvisor.LoginActivity"
+method = "list"
+params = { offset = 0, limit = 50 }
+
+# Réseau, services, matériel
+# Réseau et services : versions du Panneau de configuration.
+[[call]]
+api = "SYNO.Core.Network"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Network.Interface"
+method = "list"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Service"
+method = "get"
+max_version = 3
+params = { additional = '["active_status"]' }
+
+[[call]]
+api = "SYNO.Core.ExternalDevice.UPS"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Hardware.FanSpeed"
+method = "get"
+
+[[call]]
+api = "SYNO.Core.Notification.Mail.Conf"
+method = "get"
+
+# Comptes et journaux (données personnelles : rester sur le NAS d'essai)
+# Comptes locaux, sans adresse ni description : ce que lit users.list.
+[[call]]
+api = "SYNO.Core.User"
+method = "list"
+max_version = 1
+params = { type = "local", offset = 0, limit = -1, additional = '["expired","2fa_status"]' }
+
+[[call]]
+api = "SYNO.Core.Group"
+method = "list"
+
+# Le nom du groupe part encodé en JSON (sinon erreur 3201).
+[[call]]
+api = "SYNO.Core.Group.Member"
+method = "list"
+max_version = 1
+params = { group = '"administrators"', ingroup = "true", offset = 0, limit = -1 }
+
+# Onglet « Général » du Centre des journaux ; « connection » pour l'onglet des connexions.
+[[call]]
+api = "SYNO.Core.SyslogClient.Log"
+method = "list"
+max_version = 1
+params = { target = "LOCAL", logtype = "system,netbackup", date_from = 0, date_to = 0, keyword = "", level = "", start = 0, limit = 50 }
+
+[[call]]
+api = "SYNO.Core.CurrentConnection"
+method = "get"
+
+# Ajouts du 2026-11-26 (conception 2026-11-26-meilleur-produit) : conteneurs en détail, disques
+# (SMART, tests, nettoyage des données), services de fichiers, accès depuis Internet, mots de
+# passe, heure, tâches planifiées, redémarrage en attente.
+[[call]]
+api = "SYNO.Docker.Container"
+method = "get"
+max_version = 1
+each = { from = "SYNO.Docker.Container.list", items = "containers", key = "name" }
+
+[[call]]
+api = "SYNO.Storage.CGI.Smart"
+method = "list"
+max_version = 1
+
+[[call]]
+api = "SYNO.Storage.CGI.Smart"
+method = "get_health_info"
+max_version = 1
+each = { from = "SYNO.Storage.CGI.Storage.load_info", items = "disks", key = "device" }
+
+[[call]]
+api = "SYNO.Storage.CGI.Smart"
+method = "get_smart_info"
+max_version = 1
+each = { from = "SYNO.Storage.CGI.Storage.load_info", items = "disks", key = "device" }
+
+[[call]]
+api = "SYNO.Storage.CGI.Smart.Scheduler"
+method = "list"
+max_version = 1
+
+[[call]]
+api = "SYNO.Storage.CGI.Scrubbing"
+method = "get_state"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Storage.Disk"
+method = "list"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Storage.Disk"
+method = "get_smart_test_log"
+max_version = 1
+each = { from = "SYNO.Storage.CGI.Storage.load_info", items = "disks", key = "device" }
+
+[[call]]
+api = "SYNO.Storage.CGI.HddMan"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.FileServ.SMB"
+method = "get"
+max_version = 3
+
+[[call]]
+api = "SYNO.Core.FileServ.FTP"
+method = "get"
+max_version = 3
+
+[[call]]
+api = "SYNO.Core.FileServ.FTP.SFTP"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.FileServ.AFP"
+method = "get"
+max_version = 2
+
+[[call]]
+api = "SYNO.Core.FileServ.NFS"
+method = "get"
+max_version = 3
+
+[[call]]
+api = "SYNO.Backup.Service.NetworkBackup"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.SNMP"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.PortForwarding.Rules"
+method = "load"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Web.DSM"
+method = "get"
+max_version = 2
+
+[[call]]
+api = "SYNO.Core.Web.DSM.External"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Web.Security.TLSProfile"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.User.PasswordPolicy"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.User.PasswordExpiry"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Region.NTP"
+method = "get"
+max_version = 3
+
+[[call]]
+api = "SYNO.Core.Region.NTP"
+method = "status"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.TaskScheduler"
+method = "list"
+max_version = 3
+params = { sort_by = "next_trigger_time", sort_direction = "ASC", offset = 0, limit = 50 }
+
+[[call]]
+api = "SYNO.Core.Hardware.NeedReboot"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Hardware.ZRAM"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Notification.Push.Conf"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.Core.Security.AutoBlock.Rules"
+method = "list"
+max_version = 1
+params = { offset = 0, limit = 50, type = "deny" }
+
+# Active Backup for Business (2026-11-26) : les appels de son interface, en version 1.
+[[call]]
+api = "SYNO.ActiveBackup.Activation"
+method = "get"
+max_version = 1
+
+[[call]]
+api = "SYNO.ActiveBackup.Task"
+method = "list"
+max_version = 1
+params = { load_result = "true", load_devices = "true" }
+
+[[call]]
+api = "SYNO.ActiveBackup.Device"
+method = "list"
+max_version = 1
+params = { load_result = "true", filter = '{"load_available":true}' }
+
+[[call]]
+api = "SYNO.ActiveBackup.Overview"
+method = "list_device_last_backup"
+max_version = 1
+params = { order_by = "time_start", direction = "ASC" }
+
+[[call]]
+api = "SYNO.ActiveBackup.Overview"
+method = "list_activity"
+max_version = 1
+params = { sort_by = "job_id", sort_direction = "ASC" }
+
+[[call]]
+api = "SYNO.ActiveBackup.Log"
+method = "list_result"
+max_version = 1
+params = { filter = '{"offset":0,"limit":20}' }
+
+[[call]]
+api = "SYNO.ActiveBackup.Share"
+method = "list_storage"
+max_version = 1
+
+# Active Backup for Microsoft 365 et for Google Workspace (2026-11-26) : appels de leur
+# interface. TaskType 0 : sauvegarde ; heures en horodatage Unix.
+[[call]]
+api = "SYNO.ActiveBackupOffice365"
+method = "get_activation"
+max_version = 1
+
+[[call]]
+api = "SYNO.ActiveBackupOffice365"
+method = "list_tasks"
+max_version = 1
+
+[[call]]
+api = "SYNO.ActiveBackupOffice365"
+method = "list_task_logs"
+max_version = 1
+params = { job_type = 0, start_run_time = 0, end_run_time = 2147483647, transfered_size_from = 0, offset = 0, limit = 50 }
+
+[[call]]
+api = "SYNO.ActiveBackupGSuite"
+method = "get_activation"
+max_version = 1
+
+[[call]]
+api = "SYNO.ActiveBackupGSuite"
+method = "list_tasks"
+max_version = 1
+
+[[call]]
+api = "SYNO.ActiveBackupGSuite"
+method = "list_task_logs"
+max_version = 1
+params = { job_type = 0, start_run_time = 0, end_run_time = 2147483647, transfered_size_from = 0, offset = 0, limit = 50 }

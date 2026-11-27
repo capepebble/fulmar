@@ -1,0 +1,229 @@
+{
+  "op": "storage.smart",
+  "fetched_at": "2026-11-26T14:02:02.936634+00:00",
+  "cached": false,
+  "data": {
+    "disks": [
+      {
+        "id": "sata1",
+        "device": "/dev/sata1",
+        "name": "Drive 1",
+        "model": "ST12000NM001G-2MV103",
+        "is_ssd": false,
+        "smart_status": "normal",
+        "power_on_hours": 46983,
+        "reallocated_sectors": 0,
+        "pending_sectors": 0,
+        "uncorrectable_sectors": 0,
+        "reported_uncorrect": 0,
+        "command_timeouts": 0,
+        "crc_errors": 0,
+        "ssd_life_pct": null,
+        "failing_attributes": [],
+        "last_test_result": "completed",
+        "last_test_at": null,
+        "attributes": [
+          {
+            "id": 1,
+            "name": "Raw_Read_Error_Rate",
+            "current": 72,
+            "worst": 64,
+            "threshold": 44,
+            "raw": "0/14478103",
+            "status": "OK"
+          },
+          {
+            "id": 3,
+            "name": "Spin_Up_Time",
+            "current": 92,
+            "worst": 91,
+            "threshold": 0,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 4,
+            "name": "Start_Stop_Count",
+            "current": 100,
+            "worst": 100,
+            "threshold": 20,
+            "raw": "596",
+            "status": "OK"
+          },
+          {
+            "id": 5,
+            "name": "Reallocated_Sector_Ct",
+            "current": 100,
+            "worst": 100,
+            "threshold": 10,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 7,
+            "name": "Seek_Error_Rate",
+            "current": 88,
+            "worst": 60,
+            "threshold": 45,
+            "raw": "0/635436055",
+            "status": "OK"
+          },
+          {
+            "id": 9,
+            "name": "Power_On_Hours",
+            "current": 47,
+            "worst": 47,
+            "threshold": 0,
+            "raw": "46983",
+            "status": "OK"
+          },
+          {
+            "id": 10,
+            "name": "Spin_Retry_Count",
+            "current": 100,
+            "worst": 100,
+            "threshold": 97,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 12,
+            "name": "Power_Cycle_Count",
+            "current": 100,
+            "worst": 100,
+            "threshold": 20,
+            "raw": "442",
+            "status": "OK"
+          },
+          {
+            "id": 18,
+            "name": "Head_Health",
+            "current": 100,
+            "worst": 100,
+            "threshold": 50,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 187,
+            "name": "Reported_Uncorrect",
+            "current": 100,
+            "worst": 100,
+            "threshold": 0,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 188,
+            "name": "Command_Timeout",
+            "current": 100,
+            "worst": 100,
+            "threshold": 0,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 190,
+            "name": "Airflow_Temperature_Cel",
+            "current": 68,
+            "worst": 44,
+            "threshold": 40,
+            "raw": "32",
+            "status": "OK"
+          },
+          {
+            "id": 192,
+            "name": "Power-Off_Retract_Count",
+            "current": 100,
+            "worst": 100,
+            "threshold": 0,
+            "raw": "32",
+            "status": "OK"
+          },
+          {
+            "id": 193,
+            "name": "Load_Cycle_Count",
+            "current": 99,
+            "worst": 99,
+            "threshold": 0,
+            "raw": "2460",
+            "status": "OK"
+          },
+          {
+            "id": 194,
+            "name": "Temperature_Celsius",
+            "current": 32,
+            "worst": 56,
+            "threshold": 0,
+            "raw": "32",
+            "status": "OK"
+          },
+          {
+            "id": 197,
+            "name": "Current_Pending_Sector",
+            "current": 100,
+            "worst": 100,
+            "threshold": 0,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 198,
+            "name": "Offline_Uncorrectable",
+            "current": 100,
+            "worst": 100,
+            "threshold": 0,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 199,
+            "name": "UDMA_CRC_Error_Count",
+            "current": 200,
+            "worst": 200,
+            "threshold": 0,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 200,
+            "name": "Pressure_Limit",
+            "current": 100,
+            "worst": 100,
+            "threshold": 1,
+            "raw": "0",
+            "status": "OK"
+          },
+          {
+            "id": 240,
+            "name": "Head_Flying_Hours",
+            "current": 100,
+            "worst": 253,
+            "threshold": 0,
+            "raw": "46315h+11m+07.485s",
+            "status": "OK"
+          },
+          {
+            "id": 241,
+            "name": "Total_LBAs_Written",
+            "current": 100,
+            "worst": 253,
+            "threshold": 0,
+            "raw": "359026689505",
+            "status": "OK"
+          },
+          {
+            "id": 242,
+            "name": "Total_LBAs_Read",
+            "current": 100,
+            "worst": 253,
+            "threshold": 0,
+            "raw": "792157564726",
+            "status": "OK"
+          }
+        ]
+      }
+    ],
+    "scheduled_tests": []
+  }
+}

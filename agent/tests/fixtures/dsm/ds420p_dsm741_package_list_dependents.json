@@ -1,0 +1,340 @@
+{
+ "packages": [
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": {
+     "SMBService": ""
+    },
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/26"
+   },
+   "id": "ActiveBackup",
+   "name": "Active Backup for Business",
+   "timestamp": 1795726294335,
+   "version": "3.2.2-25554"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": {
+     "SynoFinder": {
+      ">=": "1.5.1-0504"
+     }
+    },
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/26"
+   },
+   "id": "ActiveBackup-GSuite",
+   "name": "Active Backup for Google Workspace",
+   "timestamp": 1795726294389,
+   "version": "2.3.1-14311"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": {
+     "SynoFinder": {
+      ">=": "1.5.1-0504"
+     }
+    },
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/26"
+   },
+   "id": "ActiveBackup-Office365",
+   "name": "Active Backup for Microsoft 365",
+   "timestamp": 1795726294445,
+   "version": "3.0.0-14300"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "ActiveInsight",
+   "name": "Active Insight",
+   "timestamp": 1795726294456,
+   "version": "3.0.6-24124"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "stop",
+    "status_code": 1,
+    "status_description": "retrieve from status script, the script status is not 0 but the unit is active, it is possible that package encounters an error after started",
+    "status_origin": "stop",
+    "updated_at": "2026/11/06"
+   },
+   "id": "ContainerManager",
+   "name": "Container Manager",
+   "timestamp": 1795726294470,
+   "version": "24.0.2-1707"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "FileStation",
+   "name": "File Station",
+   "timestamp": 1795726294483,
+   "version": "1.4.4-2221"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "HybridShare",
+   "name": "Hybrid Share",
+   "timestamp": 1795726294496,
+   "version": "1.6.2-2028"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "HyperBackup",
+   "name": "Hyper Backup",
+   "timestamp": 1795726294507,
+   "version": "4.2.2-4262"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "OAuthService",
+   "name": "OAuth Service",
+   "timestamp": 1795726294523,
+   "version": "1.3.0-0220"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "Python2",
+   "name": "Python2",
+   "timestamp": 1795726294532,
+   "version": "2.7.18-1004"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "QuickConnect",
+   "name": "QuickConnect",
+   "timestamp": 1795726294547,
+   "version": "1.0.10-0187"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "SMBService",
+   "name": "SMB Service",
+   "timestamp": 1795726294565,
+   "version": "4.15.13-4251"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": false,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "ScsiTarget",
+   "name": "SAN Manager",
+   "timestamp": 1795726294575,
+   "version": "1.0.12-0802"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "SecureSignIn",
+   "name": "Secure SignIn Service",
+   "timestamp": 1795726294585,
+   "version": "1.1.7-0455"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "StorageManager",
+   "name": "Storage Manager",
+   "timestamp": 1795726294596,
+   "version": "1.1.0-2018"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "system",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/06"
+   },
+   "id": "SynoFinder",
+   "name": "Universal Search",
+   "timestamp": 1795726294627,
+   "version": "1.9.0-0900"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "",
+    "silent_upgrade": false,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/21"
+   },
+   "id": "Tailscale",
+   "name": "Tailscale",
+   "timestamp": 1795726294664,
+   "version": "1.58.2-700058002"
+  },
+  {
+   "additional": {
+    "autoupdate": false,
+    "autoupdate_important": true,
+    "dependent_packages": null,
+    "install_type": "",
+    "silent_upgrade": true,
+    "status": "running",
+    "status_code": 0,
+    "status_description": "retrieve from status script",
+    "status_origin": "running",
+    "updated_at": "2026/11/26"
+   },
+   "id": "TextEditor",
+   "name": "Text Editor",
+   "timestamp": 1795726294674,
+   "version": "1.2.6-0260"
+  }
+ ],
+ "total": 18,
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 2. Réponse réelle du 2026-11-26 à SYNO.Core.Package list v2 avec additional dependent_packages (dépendances : Active Backup vers SMB, Microsoft 365 et Google Workspace vers Universal Search)."
+}

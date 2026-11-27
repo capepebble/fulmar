@@ -1,0 +1,13 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, tâche Hyper Backup locale « Essai local ». Réponse réelle du 2026-11-06, nettoyée par nas_agent.probe.scrub.",
+ "is_modified": false,
+ "last_bkp_end_time": "2026/11/06 16:08:41",
+ "last_bkp_error": "",
+ "last_bkp_error_code": 4401,
+ "last_bkp_result": "done",
+ "last_bkp_success_time": "2026/11/06 16:08:41",
+ "last_bkp_time": "2026/11/06 16:08:29",
+ "state": "backupable",
+ "status": "none",
+ "task_id": 1
+}

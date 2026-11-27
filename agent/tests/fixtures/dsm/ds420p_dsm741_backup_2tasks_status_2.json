@@ -1,0 +1,13 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales, dont « Essai en échec » dont la destination a été rendue non modifiable pendant la sauvegarde. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "is_modified": false,
+ "last_bkp_end_time": "2026/11/08 17:05:46",
+ "last_bkp_error": "",
+ "last_bkp_error_code": 4401,
+ "last_bkp_result": "failed_checking",
+ "last_bkp_success_time": "2026/11/08 16:57:38",
+ "last_bkp_time": "2026/11/08 17:05:36",
+ "state": "backupable",
+ "status": "none",
+ "task_id": 2
+}

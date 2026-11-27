@@ -1,0 +1,100 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales, dont « Essai en échec » dont la destination a été rendue non modifiable pendant la sauvegarde. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "error_count": 2,
+ "info_count": 13,
+ "log_list": [
+  {
+   "event": "[Local][Essai en échec] Failed to run backup task.",
+   "level": "err",
+   "time": "2026/11/08 17:05:46",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai en échec] Exception occurred while backing up data. (Your disk has I/O error. Please refer to http://sy.to/hbioerr) [User: <redacted>, Path: /volume1/sauvegardes/echec.hbk/Config/version_info.db, Reason: disk I/O error]",
+   "level": "err",
+   "time": "2026/11/08 17:05:45",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai en échec] Backup task started.",
+   "level": "info",
+   "time": "2026/11/08 17:05:36",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai en échec] Backup task finished successfully. [5 files scanned] [1 new files] [1 files modified] [3 files unchanged]",
+   "level": "info",
+   "time": "2026/11/08 16:57:38",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai en échec] Backup task started.",
+   "level": "info",
+   "time": "2026/11/08 16:57:11",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai en échec] Backup task finished successfully. [4 files scanned] [4 new files]",
+   "level": "info",
+   "time": "2026/11/08 16:49:18",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai en échec] Backup task started.",
+   "level": "info",
+   "time": "2026/11/08 16:49:06",
+   "user": "<user>"
+  },
+  {
+   "event": "Setting of backup task [Essai en échec] was created to backup to [sauvegardes/echec.hbk]",
+   "level": "info",
+   "time": "2026/11/08 16:49:06",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai local] Backup task finished successfully. [4 files scanned] [3 files modified] [1 files unchanged]",
+   "level": "info",
+   "time": "2026/11/06 16:15:11",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai local] Backup task started.",
+   "level": "info",
+   "time": "2026/11/06 16:15:00",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai local] Backup task finished successfully. [4 files scanned] [3 files modified] [1 files unchanged]",
+   "level": "info",
+   "time": "2026/11/06 16:09:54",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai local] Backup task started.",
+   "level": "info",
+   "time": "2026/11/06 16:09:43",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai local] Backup task finished successfully. [4 files scanned] [4 new files]",
+   "level": "info",
+   "time": "2026/11/06 16:08:41",
+   "user": "<user>"
+  },
+  {
+   "event": "[Local][Essai local] Backup task started.",
+   "level": "info",
+   "time": "2026/11/06 16:08:29",
+   "user": "<user>"
+  },
+  {
+   "event": "Setting of backup task [Essai local] was created to backup to [sauvegardes/essai.hbk]",
+   "level": "info",
+   "time": "2026/11/06 16:08:19",
+   "user": "<user>"
+  }
+ ],
+ "offset": 15,
+ "total": 15,
+ "warn_count": 0
+}

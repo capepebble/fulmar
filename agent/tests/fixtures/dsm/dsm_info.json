@@ -1,0 +1,14 @@
+{
+ "_synthetic": true,
+ "_source": "Synthétique : d'après les données de test de py-synologydsm-api (MIT), réduites et nettoyées. À remplacer par une réponse du NAS d'essai.",
+ "codepage": "fre",
+ "model": "DS918+",
+ "ram": 4096,
+ "serial": "SERIAL0000",
+ "temperature": 40,
+ "temperature_warn": false,
+ "time": "Sun Mar 29 19:33:41 2020",
+ "uptime": 155084,
+ "version": "72806",
+ "version_string": "DSM 7.2.2-72806 Update 3"
+}

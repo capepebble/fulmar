@@ -1,0 +1,20 @@
+{
+  "op": "security.settings",
+  "fetched_at": "2026-11-09T15:26:47.533735+00:00",
+  "cached": false,
+  "data": {
+    "firewall": { "enabled": false, "profile": "default" },
+    "auto_block": {
+      "enabled": true,
+      "attempts": 10,
+      "within_minutes": 5,
+      "block_days": 0
+    },
+    "account_protection_enabled": false,
+    "two_factor_enforced": "none",
+    "ssh": { "enabled": true, "port": 22 },
+    "telnet_enabled": false,
+    "quickconnect": { "enabled": false, "status": "not_running" },
+    "session": { "timeout_minutes": 15, "csrf_protection": true }
+  }
+}

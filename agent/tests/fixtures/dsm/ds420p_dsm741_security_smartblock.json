@@ -1,0 +1,10 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, à jour, paquets d'origine plus Hyper Backup et Container Manager. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "enabled": false,
+ "trust_lock": 30,
+ "trust_minute": 1,
+ "trust_try": 10,
+ "untrust_lock": 30,
+ "untrust_minute": 1,
+ "untrust_try": 5
+}

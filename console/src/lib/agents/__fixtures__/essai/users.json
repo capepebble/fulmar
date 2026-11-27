@@ -1,0 +1,49 @@
+{
+  "op": "users.list",
+  "fetched_at": "2026-11-09T15:26:47.625066+00:00",
+  "cached": false,
+  "data": {
+    "summary": {
+      "total": 4,
+      "active": 2,
+      "active_admins": 2,
+      "admins_without_two_factor": 2,
+      "builtin_admin_enabled": false,
+      "guest_enabled": false
+    },
+    "accounts": [
+      {
+        "name": "admin",
+        "admin": true,
+        "disabled": true,
+        "expires_on": null,
+        "two_factor": false,
+        "agent_account": false
+      },
+      {
+        "name": "utilisateur",
+        "admin": true,
+        "disabled": false,
+        "expires_on": null,
+        "two_factor": false,
+        "agent_account": false
+      },
+      {
+        "name": "claude",
+        "admin": true,
+        "disabled": false,
+        "expires_on": null,
+        "two_factor": false,
+        "agent_account": false
+      },
+      {
+        "name": "guest",
+        "admin": false,
+        "disabled": true,
+        "expires_on": null,
+        "two_factor": false,
+        "agent_account": false
+      }
+    ]
+  }
+}

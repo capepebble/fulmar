@@ -1,0 +1,94 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, un disque en SHR sans protection. Réponse réelle du 2026-11-06, nettoyée par nas_agent.probe.scrub.",
+ "cpu": {
+  "15min_load": 3,
+  "1min_load": 5,
+  "5min_load": 1,
+  "device": "System",
+  "other_load": 1,
+  "system_load": 1,
+  "user_load": 1
+ },
+ "disk": {
+  "disk": [
+   {
+    "device": "sata1",
+    "display_name": "Drive 1",
+    "read_access": 1,
+    "read_byte": 115273,
+    "type": "internal",
+    "utilization": 0,
+    "write_access": 1,
+    "write_byte": 16969
+   }
+  ],
+  "total": {
+   "device": "total",
+   "read_access": 1,
+   "read_byte": 115273,
+   "utilization": 0,
+   "write_access": 1,
+   "write_byte": 16969
+  }
+ },
+ "lun": [],
+ "memory": {
+  "avail_real": 846176,
+  "avail_swap": 3174324,
+  "buffer": 16956,
+  "cached": 531420,
+  "device": "Memory",
+  "memory_size": 2097152,
+  "real_usage": 22,
+  "si_disk": 0,
+  "so_disk": 0,
+  "swap_usage": 0,
+  "total_real": 1795352,
+  "total_swap": 3174324
+ },
+ "network": [
+  {
+   "device": "total",
+   "rx": 2112,
+   "tx": 19620
+  },
+  {
+   "device": "eth0",
+   "rx": 2112,
+   "tx": 19620
+  },
+  {
+   "device": "eth1",
+   "rx": 0,
+   "tx": 0
+  }
+ ],
+ "nfs": [],
+ "smb": {
+  "smb_cmd": [],
+  "smb_cpu": [],
+  "smb_rwpkt": []
+ },
+ "space": {
+  "total": {
+   "device": "total",
+   "read_access": 0,
+   "read_byte": 0,
+   "utilization": 0,
+   "write_access": 0,
+   "write_byte": 0
+  },
+  "volume": [
+   {
+    "device": "dm-1",
+    "display_name": "volume1",
+    "read_access": 0,
+    "read_byte": 0,
+    "utilization": 0,
+    "write_access": 0,
+    "write_byte": 0
+   }
+  ]
+ },
+ "time": 1793969778
+}

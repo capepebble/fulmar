@@ -1,0 +1,9 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub ; journal de File Station activé par Claude, SMB activé d'origine.",
+ "afp": false,
+ "cifs": true,
+ "filestation": true,
+ "ftp": false,
+ "tftp": false,
+ "webdav": false
+}

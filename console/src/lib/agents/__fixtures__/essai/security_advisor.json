@@ -1,0 +1,93 @@
+{
+  "op": "security.advisor",
+  "fetched_at": "2026-11-09T15:26:47.563010+00:00",
+  "cached": false,
+  "data": {
+    "status": "risk",
+    "scanning": false,
+    "last_scan_at": "2026-11-09T06:39:26Z",
+    "group": "home",
+    "schedule": { "enabled": true, "week_day": "0", "hour": 9, "minute": 58 },
+    "summary": {
+      "rules": 31,
+      "passed": 21,
+      "failed": 2,
+      "skipped": 8,
+      "errors": 0
+    },
+    "categories": [
+      {
+        "category": "malware",
+        "status": "safe",
+        "rules": 5,
+        "failed": {
+          "danger": 0,
+          "risk": 0,
+          "warning": 0,
+          "out_of_date": 0,
+          "info": 0
+        }
+      },
+      {
+        "category": "network",
+        "status": "risk",
+        "rules": 5,
+        "failed": {
+          "danger": 0,
+          "risk": 1,
+          "warning": 0,
+          "out_of_date": 0,
+          "info": 0
+        }
+      },
+      {
+        "category": "system",
+        "status": "safe",
+        "rules": 8,
+        "failed": {
+          "danger": 0,
+          "risk": 0,
+          "warning": 0,
+          "out_of_date": 0,
+          "info": 0
+        }
+      },
+      {
+        "category": "updates",
+        "status": "info",
+        "rules": 4,
+        "failed": {
+          "danger": 0,
+          "risk": 0,
+          "warning": 0,
+          "out_of_date": 0,
+          "info": 1
+        }
+      },
+      {
+        "category": "accounts",
+        "status": "safe",
+        "rules": 9,
+        "failed": {
+          "danger": 0,
+          "risk": 0,
+          "warning": 0,
+          "out_of_date": 0,
+          "info": 0
+        }
+      }
+    ],
+    "failed_rules": [
+      {
+        "id": "ruleDB.Terminal.SSH.sshPortCheck",
+        "category": "network",
+        "severity": "risk"
+      },
+      {
+        "id": "ruleDB.Update.DSM.enable_notification_v3",
+        "category": "updates",
+        "severity": "info"
+      }
+    ]
+  }
+}

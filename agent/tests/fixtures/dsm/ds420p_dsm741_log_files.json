@@ -1,0 +1,75 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub ; actions File Station faites par Claude sur le dossier d'essai (synowebapi, compte claude).",
+ "errorCount": 0,
+ "infoCount": 0,
+ "items": [
+  {
+   "cmd": "delete",
+   "descr": "/essai/journal 2 renommé",
+   "filesize": "0 Bytes",
+   "ip": "127.0.0.1",
+   "isdir": "true",
+   "logtype": "File Station",
+   "orginalLogType": "dsmfmxfer",
+   "time": "2026/11/09 21:26:40",
+   "username": "claude"
+  },
+  {
+   "cmd": "delete",
+   "descr": "/essai/journal renommé",
+   "filesize": "0 Bytes",
+   "ip": "127.0.0.1",
+   "isdir": "true",
+   "logtype": "File Station",
+   "orginalLogType": "dsmfmxfer",
+   "time": "2026/11/09 21:26:40",
+   "username": "claude"
+  },
+  {
+   "cmd": "move",
+   "descr": "/essai/journal 2 renommé/note-2.txt -> /essai/journal renommé/note-2.txt",
+   "filesize": "45 Bytes",
+   "ip": "127.0.0.1",
+   "isdir": "false",
+   "logtype": "File Station",
+   "orginalLogType": "dsmfmxfer",
+   "time": "2026/11/09 21:26:37",
+   "username": "claude"
+  },
+  {
+   "cmd": "copy",
+   "descr": "/essai/documents/note-2.txt -> /essai/journal 2 renommé/note-2.txt",
+   "filesize": "45 Bytes",
+   "ip": "127.0.0.1",
+   "isdir": "false",
+   "logtype": "File Station",
+   "orginalLogType": "dsmfmxfer",
+   "time": "2026/11/09 21:26:34",
+   "username": "claude"
+  },
+  {
+   "cmd": "rename",
+   "descr": "/essai/journal-essai-2 -> /essai/journal 2 renommé",
+   "filesize": "0 Bytes",
+   "ip": "127.0.0.1",
+   "isdir": "true",
+   "logtype": "File Station",
+   "orginalLogType": "dsmfmxfer",
+   "time": "2026/11/09 21:26:34",
+   "username": "claude"
+  },
+  {
+   "cmd": "create folder",
+   "descr": "/essai/journal-essai-2",
+   "filesize": "0 Bytes",
+   "ip": "127.0.0.1",
+   "isdir": "true",
+   "logtype": "File Station",
+   "orginalLogType": "dsmfmxfer",
+   "time": "2026/11/09 21:26:22",
+   "username": "claude"
+  }
+ ],
+ "total": 6,
+ "warnCount": 0
+}

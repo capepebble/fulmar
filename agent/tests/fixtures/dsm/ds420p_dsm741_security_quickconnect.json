@@ -1,0 +1,10 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, à jour, paquets d'origine plus Hyper Backup et Container Manager. Réponse réelle du 2026-11-08, nettoyée par nas_agent.probe.scrub.",
+ "ddns_domain": "",
+ "domain": "quickconnect.to",
+ "enabled": false,
+ "myds_account": "",
+ "region": "globa",
+ "server_alias": "",
+ "server_id": ""
+}

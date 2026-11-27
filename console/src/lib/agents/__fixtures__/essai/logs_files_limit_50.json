@@ -1,0 +1,84 @@
+{
+  "op": "logs.files",
+  "fetched_at": "2026-11-09T15:26:47.900000+00:00",
+  "cached": false,
+  "data": {
+    "total": 6,
+    "logging": {
+      "smb": true,
+      "file_station": true,
+      "ftp": false,
+      "webdav": false,
+      "afp": false,
+      "tftp": false
+    },
+    "entries": [
+      {
+        "time": "2026-11-09T21:26:40",
+        "protocol": "File Station",
+        "account": "claude",
+        "address": "127.0.0.1",
+        "action": "delete",
+        "path": "/essai/journal 2 renommé",
+        "destination": null,
+        "is_dir": true,
+        "size": 0
+      },
+      {
+        "time": "2026-11-09T21:26:40",
+        "protocol": "File Station",
+        "account": "claude",
+        "address": "127.0.0.1",
+        "action": "delete",
+        "path": "/essai/journal renommé",
+        "destination": null,
+        "is_dir": true,
+        "size": 0
+      },
+      {
+        "time": "2026-11-09T21:26:37",
+        "protocol": "File Station",
+        "account": "claude",
+        "address": "127.0.0.1",
+        "action": "move",
+        "path": "/essai/journal 2 renommé/note-2.txt",
+        "destination": "/essai/journal renommé/note-2.txt",
+        "is_dir": false,
+        "size": 45
+      },
+      {
+        "time": "2026-11-09T21:26:34",
+        "protocol": "File Station",
+        "account": "claude",
+        "address": "127.0.0.1",
+        "action": "copy",
+        "path": "/essai/documents/note-2.txt",
+        "destination": "/essai/journal 2 renommé/note-2.txt",
+        "is_dir": false,
+        "size": 45
+      },
+      {
+        "time": "2026-11-09T21:26:34",
+        "protocol": "File Station",
+        "account": "claude",
+        "address": "127.0.0.1",
+        "action": "rename",
+        "path": "/essai/journal-essai-2",
+        "destination": "/essai/journal 2 renommé",
+        "is_dir": true,
+        "size": 0
+      },
+      {
+        "time": "2026-11-09T21:26:22",
+        "protocol": "File Station",
+        "account": "claude",
+        "address": "127.0.0.1",
+        "action": "create folder",
+        "path": "/essai/journal-essai-2",
+        "destination": null,
+        "is_dir": true,
+        "size": 0
+      }
+    ]
+  }
+}

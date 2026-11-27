@@ -1,0 +1,70 @@
+{
+  "op": "storage.overview",
+  "fetched_at": "2026-11-09T15:26:47.363466+00:00",
+  "cached": false,
+  "data": {
+    "summary": {
+      "disks_total": 2,
+      "disks_unhealthy": 1,
+      "volumes_total": 1,
+      "volumes_not_normal": 0,
+      "pools_not_normal": 0
+    },
+    "volumes": [
+      {
+        "id": "volume_1",
+        "path": "/volume1",
+        "status": "normal",
+        "fs_type": "btrfs",
+        "raid": "shr_with_2_disk_protect",
+        "pool_id": "reuse_1",
+        "size_total_bytes": 38378964738048,
+        "size_used_bytes": 26724878606336,
+        "used_pct": 69.6
+      }
+    ],
+    "pools": [
+      {
+        "id": "reuse_1",
+        "status": "normal",
+        "raid": "shr_with_2_disk_protect",
+        "disks": ["sda", "sdb"],
+        "disk_failures": 0
+      }
+    ],
+    "disks": [
+      {
+        "id": "sda",
+        "name": "Drive 1",
+        "model": "WD80EFAX-68KNBN0",
+        "vendor": "WDC",
+        "serial": "SERIAL0001",
+        "firmware": "81.00A81",
+        "type": "SATA",
+        "size_bytes": 8001563222016,
+        "status": "normal",
+        "smart_status": "normal",
+        "temperature_c": 39,
+        "bad_sectors_exceeded": false,
+        "remaining_life_low": false,
+        "healthy": true
+      },
+      {
+        "id": "sdb",
+        "name": "Drive 2",
+        "model": "WD80EFAX-68KNBN0",
+        "vendor": "WDC",
+        "serial": "SERIAL0002",
+        "firmware": "81.00A81",
+        "type": "SATA",
+        "size_bytes": 8001563222016,
+        "status": "normal",
+        "smart_status": "warning",
+        "temperature_c": 58,
+        "bad_sectors_exceeded": false,
+        "remaining_life_low": false,
+        "healthy": false
+      }
+    ]
+  }
+}

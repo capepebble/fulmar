@@ -1,0 +1,20 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1 ; Security Advisor en groupe « domestique », dossier « Compta été » et instantanés créés pour l'essai. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "enable_snapshot_schedule": true,
+ "schedule": {
+  "date": "2026/11/9",
+  "date_type": 0,
+  "hour": 3,
+  "last_work_hour": 3,
+  "min": 0,
+  "monthly_week": [],
+  "next_trigger_time": "2026-11-10 03:00",
+  "repeat": 0,
+  "repeat_hour": 0,
+  "repeat_hour_store_config": null,
+  "repeat_min": 0,
+  "repeat_min_store_config": null,
+  "week_name": "0,1,2,3,4,5,6"
+ },
+ "task_id": 3
+}

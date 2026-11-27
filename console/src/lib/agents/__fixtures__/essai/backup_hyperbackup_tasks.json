@@ -1,0 +1,36 @@
+{
+  "op": "backup.hyperbackup.tasks",
+  "fetched_at": "2026-11-09T15:26:47.464224+00:00",
+  "cached": false,
+  "data": {
+    "summary": { "tasks_total": 1, "tasks_running": 0, "tasks_failed": 0 },
+    "restoring": false,
+    "tasks": [
+      {
+        "id": 1,
+        "name": "Essai local",
+        "kind": "image:image_local",
+        "destination_share": "sauvegardes",
+        "destination_target": "essai.hbk",
+        "encrypted": false,
+        "sources": [{ "path": "/essai", "missing": false }],
+        "apps": [],
+        "state": "backupable",
+        "running": false,
+        "last_result": "done",
+        "last_started_at": "2026-11-06T16:08:29",
+        "last_ended_at": "2026-11-06T16:08:41",
+        "last_success_at": "2026-11-06T16:08:41",
+        "last_error": null,
+        "failed": false,
+        "schedule": null,
+        "integrity_check": {
+          "last_at": "2026-11-09T10:35:00",
+          "never_checked": false,
+          "scheduled": true,
+          "next_run_at": "2026-11-15T04:00:00"
+        }
+      }
+    ]
+  }
+}

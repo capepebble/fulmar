@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "arch": "x86_64",
+      "collectionId": "pbc_3116237454",
+      "collectionName": "system_details",
+      "cores": 2,
+      "cpu": "Intel(R) Celeron(R) J4025 CPU @ 2.00GHz",
+      "hostname": "nas-essai",
+      "id": "br2ryctgsfukr6r",
+      "kernel": "4.4.302+",
+      "memory": 1838440448,
+      "os": 0,
+      "os_name": "Synology NAS\n",
+      "podman": false,
+      "sockets": 1,
+      "system": "br2ryctgsfukr6r",
+      "threads": 2,
+      "updated": "2026-11-20 12:49:47.361Z"
+    }
+  ],
+  "page": 1,
+  "perPage": 500,
+  "totalItems": 1,
+  "totalPages": 1
+}

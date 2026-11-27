@@ -1,0 +1,85 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1 ; Security Advisor en groupe « domestique », dossier « Compta été » et instantanés créés pour l'essai. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "items": {
+  "malware": {
+   "category": "malware",
+   "fail": {
+    "danger": 0,
+    "info": 0,
+    "outOfDate": 0,
+    "risk": 0,
+    "warning": 0
+   },
+   "failSeverity": "safe",
+   "progress": 100,
+   "runningItem": "",
+   "total": 5,
+   "waitNum": 0
+  },
+  "network": {
+   "category": "network",
+   "fail": {
+    "danger": 0,
+    "info": 0,
+    "outOfDate": 0,
+    "risk": 1,
+    "warning": 0
+   },
+   "failSeverity": "risk",
+   "progress": 100,
+   "runningItem": "",
+   "total": 5,
+   "waitNum": 0
+  },
+  "systemCheck": {
+   "category": "systemCheck",
+   "fail": {
+    "danger": 0,
+    "info": 0,
+    "outOfDate": 0,
+    "risk": 0,
+    "warning": 0
+   },
+   "failSeverity": "safe",
+   "progress": 100,
+   "runningItem": "",
+   "total": 8,
+   "waitNum": 0
+  },
+  "update": {
+   "category": "update",
+   "fail": {
+    "danger": 0,
+    "info": 1,
+    "outOfDate": 0,
+    "risk": 0,
+    "warning": 0
+   },
+   "failSeverity": "info",
+   "progress": 100,
+   "runningItem": "",
+   "total": 4,
+   "waitNum": 0
+  },
+  "userInfo": {
+   "category": "userInfo",
+   "fail": {
+    "danger": 0,
+    "info": 0,
+    "outOfDate": 0,
+    "risk": 0,
+    "warning": 0
+   },
+   "failSeverity": "safe",
+   "progress": 100,
+   "runningItem": "",
+   "total": 9,
+   "waitNum": 0
+  }
+ },
+ "lastScanTime": "1794206366",
+ "startTime": "",
+ "success": true,
+ "sysProgress": 100,
+ "sysStatus": "risk"
+}

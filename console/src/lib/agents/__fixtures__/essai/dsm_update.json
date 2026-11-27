@@ -1,0 +1,19 @@
+{
+  "op": "dsm.update",
+  "fetched_at": "2026-11-09T15:26:47.464224+00:00",
+  "cached": false,
+  "data": {
+    "current_version": "DSM 7.4.1-90080 Update 1",
+    "check_ok": true,
+    "update_available": false,
+    "update_version": null,
+    "major_upgrade_available": false,
+    "major_upgrade_version": null,
+    "auto_update": "hotfix-security",
+    "schedule": {
+      "week_day": "2",
+      "hour": 5,
+      "minute": 50
+    }
+  }
+}

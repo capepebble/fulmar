@@ -1,0 +1,31 @@
+{
+  "op": "certificates.list",
+  "fetched_at": "2026-11-09T15:26:47.588735+00:00",
+  "cached": false,
+  "data": {
+    "summary": { "total": 1, "expired": 0, "expiring_within_30_days": 0 },
+    "certificates": [
+      {
+        "id": "da11rP",
+        "description": null,
+        "common_name": "synology",
+        "alt_names": ["synology"],
+        "issuer": "Synology Inc. CA",
+        "self_signed": true,
+        "is_default": true,
+        "renewable": false,
+        "broken": false,
+        "valid_from": "2026-11-06T11:56:52Z",
+        "valid_until": "2027-11-07T11:56:52Z",
+        "expires_in_days": 362,
+        "expired": false,
+        "services": [
+          "KMIP",
+          "FTPS",
+          "DSM Desktop Service",
+          "Synology Storage Console Server"
+        ]
+      }
+    ]
+  }
+}

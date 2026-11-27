@@ -1,0 +1,154 @@
+{
+ "_source": "NAS d'essai : DS420+, DSM 7.4.1-90080 Update 1, deux tâches Hyper Backup locales : « Essai local » planifiée chaque jour à 3 h, contrôle d'intégrité planifié le dimanche à 4 h et lancé le 2026-11-09 à 10 h 35 ; « Essai en échec » sans planning. Réponse réelle du 2026-11-09, nettoyée par nas_agent.probe.scrub.",
+ "is_data_restoring": false,
+ "is_downloading": false,
+ "is_lun_restoring": false,
+ "is_restoring": false,
+ "is_snapshot_restoring": false,
+ "task_list": [
+  {
+   "data_enc": false,
+   "data_type": "data",
+   "ext3ShareList": [],
+   "is_modified": false,
+   "last_bkp_end_time": "2026/11/08 17:05:46",
+   "last_bkp_result": "failed_checking",
+   "last_bkp_time": "2026/11/08 17:05:36",
+   "name": "Essai en échec",
+   "repo_id": 1,
+   "source": {
+    "app_config": [],
+    "app_list": [],
+    "app_name_list": [],
+    "backup_filter": {
+     "exclude_list": [],
+     "whitelist": []
+    },
+    "backup_volumes": [],
+    "file_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "folder_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "share_list": {
+     "essai": {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true
+     }
+    }
+   },
+   "state": "backupable",
+   "status": "none",
+   "target_id": "echec.hbk",
+   "target_type": "image",
+   "task_id": 2,
+   "transfer_type": "image_local",
+   "type": "image:image_local"
+  },
+  {
+   "data_enc": false,
+   "data_type": "data",
+   "ext3ShareList": [],
+   "is_modified": false,
+   "last_bkp_end_time": "2026/11/06 16:15:11",
+   "last_bkp_result": "done",
+   "last_bkp_time": "2026/11/06 16:15:00",
+   "name": "Essai local",
+   "next_bkp_time": "2026/11/10 03:00",
+   "repo_id": 1,
+   "schedule": {
+    "schedule": {
+     "date": "2026/11/9",
+     "date_type": 0,
+     "hour": 3,
+     "last_work_hour": 3,
+     "min": 0,
+     "monthly_week": [],
+     "next_trigger_time": "2026-11-10 03:00",
+     "repeat": 0,
+     "repeat_hour": 0,
+     "repeat_hour_store_config": null,
+     "repeat_min": 0,
+     "repeat_min_store_config": null,
+     "week_name": "0,1,2,3,4,5,6"
+    },
+    "schedule_enable": true
+   },
+   "source": {
+    "app_config": [],
+    "app_list": [],
+    "app_name_list": [],
+    "backup_filter": {
+     "exclude_list": [],
+     "whitelist": []
+    },
+    "backup_volumes": [],
+    "file_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "folder_list": [
+     {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "folderPath": "/essai",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true,
+      "missing": false
+     }
+    ],
+    "share_list": {
+     "essai": {
+      "dataEncrypted": false,
+      "encryptedShare": false,
+      "fileSystem": "BTRFS",
+      "fileSystemType": "internal",
+      "fullPath": "/volume1/essai",
+      "isValidSource": true
+     }
+    }
+   },
+   "state": "backupable",
+   "status": "none",
+   "target_id": "essai.hbk",
+   "target_type": "image",
+   "task_id": 1,
+   "transfer_type": "image_local",
+   "type": "image:image_local"
+  }
+ ],
+ "total": 2
+}

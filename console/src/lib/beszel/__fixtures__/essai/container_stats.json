@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "collectionId": "juohu4jipgc13v7",
+      "collectionName": "container_stats",
+      "created": "2026-11-21 09:08:48.379Z",
+      "id": "93zypkvkkypzn5n",
+      "stats": [
+        {
+          "n": "nas-agent-tailscale",
+          "c": 0.04,
+          "m": 39.33,
+          "b": [170, 134],
+          "u": true
+        },
+        {
+          "n": "beszel-agent-essai",
+          "c": 0.04,
+          "m": 14.18
+        },
+        {
+          "n": "beszel-essai",
+          "c": 0.01,
+          "m": 26.28
+        },
+        {
+          "n": "nas-agent",
+          "c": 0.15,
+          "m": 67.36,
+          "b": [170, 135]
+        }
+      ],
+      "system": "br2ryctgsfukr6r",
+      "type": "1m",
+      "updated": "2026-11-21 09:08:48.379Z"
+    }
+  ],
+  "page": 1,
+  "perPage": 1,
+  "totalItems": 205,
+  "totalPages": 205
+}

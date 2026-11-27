@@ -1,0 +1,64 @@
+{
+ "_synthetic": true,
+ "_source": "Synthétique : forme relevée le 2026-11-26 sur un NAS qui fait tourner Active Backup for Business et for Microsoft 365 ; clés et codes d'état gardés, toutes les autres valeurs remplacées.",
+ "event_log": [
+  {
+   "description": "",
+   "error_code": 0,
+   "job_type": 1,
+   "last_execution_time": 1795071600,
+   "log_type": 0,
+   "task_execution_id": 162,
+   "task_id": 163,
+   "timestamp": 1795060800,
+   "to_user_id": "",
+   "user_id": ""
+  },
+  {
+   "description": "",
+   "error_code": 1,
+   "job_type": 0,
+   "last_execution_time": 1795057200,
+   "log_type": 2,
+   "task_execution_id": 166,
+   "task_id": 167,
+   "timestamp": 1795046400,
+   "to_user_id": "",
+   "user_id": ""
+  },
+  {
+   "description": "",
+   "error_code": 0,
+   "job_type": 1,
+   "last_execution_time": 1795042800,
+   "log_type": 0,
+   "task_execution_id": 170,
+   "task_id": 171,
+   "timestamp": 1795032000,
+   "to_user_id": "",
+   "user_id": ""
+  }
+ ],
+ "service_usage": [
+  {
+   "mydrive_storage": 0,
+   "service_type": 0,
+   "storage_usage": 0,
+   "teamdrive_storage": 0
+  },
+  {
+   "mydrive_storage": 0,
+   "service_type": 1,
+   "storage_usage": 0,
+   "teamdrive_storage": 0
+  },
+  {
+   "mydrive_storage": 0,
+   "service_type": 2,
+   "storage_usage": 0,
+   "teamdrive_storage": 0
+  }
+ ],
+ "tasks": [],
+ "users": []
+}
